@@ -1,0 +1,1 @@
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie/scripts/gui.py

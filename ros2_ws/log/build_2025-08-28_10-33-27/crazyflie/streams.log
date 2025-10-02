@@ -1,0 +1,157 @@
+[0.176s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie
+[0.211s] -- The C compiler identification is GNU 12.3.0
+[0.248s] -- The CXX compiler identification is GNU 12.3.0
+[0.253s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.362s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.461s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.501s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.521s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.548s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.610s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.681s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.700s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.731s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.738s] -- Looking for pthread.h
+[0.790s] -- Looking for pthread.h - found
+[0.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.844s] -- Found Threads: TRUE  
+[0.883s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.974s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.975s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.984s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.996s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.009s] -- Found crazyflie_interfaces: 1.0.3 (/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+[1.019s] -- Found motion_capture_tracking_interfaces: 1.0.6 (/opt/ros/humble/share/motion_capture_tracking_interfaces/cmake)
+[1.038s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[1.053s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[1.057s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.103s] -- Configuring done
+[1.131s] -- Generating done
+[1.133s] -- Build files have been written to: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie
+[1.144s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie
+[1.145s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie -- -j16 -l16
+[1.182s] [  5%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o[0m
+[1.182s] [  5%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[1.183s] [ 10%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[1.183s] [ 10%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[1.183s] [ 12%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[1.183s] [ 15%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[1.183s] [ 17%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[1.184s] [ 20%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[1.185s] [ 22%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[4.225s] [ 25%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[4.283s] [ 25%] Built target crazyflieLinkCpp
+[4.299s] [ 30%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[4.299s] [ 30%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[7.144s] [ 32%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[7.195s] [ 32%] Built target crazyflie_cpp
+[7.212s] [ 40%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o[0m
+[7.212s] [ 40%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o[0m
+[7.212s] [ 45%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[7.212s] [ 45%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o[0m
+[7.212s] [ 45%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o[0m
+[7.212s] [ 55%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[7.212s] [ 57%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o[0m
+[7.212s] [ 57%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o[0m
+[7.212s] [ 57%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o[0m
+[7.213s] [ 57%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o[0m
+[7.213s] [ 60%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/downloadUSDLogfile.dir/src/downloadUSDLogfile.cpp.o[0m
+[7.213s] [ 62%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o[0m
+[7.217s] [ 65%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.o[0m
+[8.798s] [ 67%] [32m[1mLinking CXX executable listParams[0m
+[8.913s] [ 67%] Built target listParams
+[9.069s] [ 70%] [32m[1mLinking CXX executable listLogVariables[0m
+[9.088s] [ 72%] [32m[1mLinking CXX executable scan[0m
+[9.172s] [ 72%] Built target listLogVariables
+[9.185s] [ 75%] [32m[1mLinking CXX executable version[0m
+[9.190s] [ 75%] Built target scan
+[9.198s] [ 77%] [32m[1mLinking CXX executable console[0m
+[9.218s] [ 80%] [32m[1mLinking CXX executable listMemories[0m
+[9.249s] [ 82%] [32m[1mLinking CXX executable downloadUSDLogfile[0m
+[9.292s] [ 82%] Built target version
+[9.302s] [ 82%] Built target console
+[9.323s] [ 82%] Built target listMemories
+[9.346s] [ 82%] Built target downloadUSDLogfile
+[9.401s] [ 85%] [32m[1mLinking CXX executable battery[0m
+[9.468s] [ 85%] Built target battery
+[9.666s] [ 87%] [32m[1mLinking CXX executable reboot[0m
+[9.673s] [ 90%] [32m[1mLinking CXX executable comCheck[0m
+[9.737s] [ 90%] Built target reboot
+[9.745s] [ 90%] Built target comCheck
+[9.789s] [ 92%] [32m[1mLinking CXX executable log[0m
+[9.857s] [ 92%] Built target log
+[10.001s] [ 95%] [32m[1mLinking CXX executable setParam[0m
+[10.068s] [ 95%] Built target setParam
+[14.052s] [ 97%] [32m[1mLinking CXX executable teleop[0m
+[14.195s] [ 97%] Built target teleop
+[36.417s] [100%] [32m[1mLinking CXX executable crazyflie_server[0m
+[36.684s] [100%] Built target crazyflie_server
+[36.694s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie -- -j16 -l16
+[36.726s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie
+[36.731s] -- Install configuration: "Release"
+[36.731s] -- Execute custom install script
+[36.731s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/comCheck
+[36.738s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/scan
+[36.743s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/listParams
+[36.750s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+[36.756s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/listMemories
+[36.762s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/reboot
+[36.768s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/battery
+[36.775s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/version
+[36.782s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/console
+[36.787s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/log
+[36.793s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/setParam
+[36.800s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+[36.808s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/teleop
+[36.814s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+[36.821s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[36.827s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/chooser.py
+[36.833s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+[36.839s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+[36.845s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+[36.852s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/aideck_streamer.py
+[36.859s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/gui.py
+[36.864s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/flash.py
+[36.870s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+[36.876s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[36.883s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[36.889s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/aideck_streamer.yaml
+[36.895s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+[36.902s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[36.909s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[36.915s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+[36.921s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+[36.927s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly.stl
+[36.934s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly_with_props.dae
+[36.940s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//urdf/crazyflie_description.urdf
+[36.947s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[36.953s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[36.960s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[36.966s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[36.973s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+[36.979s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+[36.984s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+[36.990s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+[36.997s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+[37.003s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+[37.010s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/package.dsv
+[37.017s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[37.023s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[37.028s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[37.034s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/package.xml
+[37.043s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie

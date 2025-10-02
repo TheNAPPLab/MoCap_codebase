@@ -1,0 +1,13 @@
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/uninstall.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/crazyflie_examples_uninstall.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/ament_cmake_python_symlink_crazyflie_examples.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/ament_cmake_python_symlink_crazyflie_examples_setup.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/ament_cmake_python_build_crazyflie_examples_egg.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/ament_cmake_python_build_crazyflie_examples_scripts.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/test.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/edit_cache.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/rebuild_cache.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/list_install_components.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/install.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/install/local.dir
+/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples/CMakeFiles/install/strip.dir

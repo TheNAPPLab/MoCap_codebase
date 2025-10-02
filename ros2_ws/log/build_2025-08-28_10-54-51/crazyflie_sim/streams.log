@@ -1,0 +1,95 @@
+[0.171s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[0.207s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[0.208s] Built target ament_cmake_python_symlink_crazyflie_sim
+[0.382s] running install_scripts
+[0.383s] running egg_info
+[0.384s] writing crazyflie_sim.egg-info/PKG-INFO
+[0.384s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[0.384s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[0.384s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[0.386s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.386s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.396s] running egg_info
+[0.397s] writing crazyflie_sim.egg-info/PKG-INFO
+[0.397s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[0.397s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[0.397s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[0.399s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.399s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.400s] Installing crazyflie_server script to scripts
+[0.409s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[0.423s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[0.431s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[0.450s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_sim
+[0.455s] -- Install configuration: "Release"
+[0.455s] -- Execute custom install script
+[0.455s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[0.456s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[0.456s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/PKG-INFO
+[0.456s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/SOURCES.txt
+[0.456s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/dependency_links.txt
+[0.456s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/entry_points.txt
+[0.456s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/top_level.txt
+[0.457s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[0.458s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py
+[0.458s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench/crazyflie2.yaml
+[0.458s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_G.pth
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_L.pth
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_S.pth
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_L.pth
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_S.pth
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio/crazyflie2.urdf
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/dynobench.py
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/neuralswarm.py
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/pinocchio.py
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py
+[0.459s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/README.md
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/README.md
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/env.jpg
+[0.460s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.obj
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py
+[0.461s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[0.462s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[0.462s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[0.469s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[0.469s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[0.469s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[0.470s] -- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[0.490s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim'...
+[0.490s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend'...
+[0.490s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data'...
+[0.490s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench'...
+[0.491s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2'...
+[0.491s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio'...
+[0.491s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization'...
+[0.491s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data'...
+[0.491s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env'...
+[0.491s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model'...
+[0.495s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_sim

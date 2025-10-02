@@ -1,0 +1,52 @@
+running develop
+Removing /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+running egg_info
+writing ../../../build/crazyflie_py/crazyflie_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/crazyflie_py/crazyflie_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/crazyflie_py/crazyflie_py.egg-info/entry_points.txt
+writing requirements to ../../../build/crazyflie_py/crazyflie_py.egg-info/requires.txt
+writing top-level names to ../../../build/crazyflie_py/crazyflie_py.egg-info/top_level.txt
+reading manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build
+creating /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib
+creating /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/__init__.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/genericJoystick.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/crazyswarm_py.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/crazyflie.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/uav_trajectory.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/keyboard.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/joystick.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/util.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+copying crazyflie_py/linuxjsdev.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py
+running install
+running install_lib
+creating /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/__init__.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/genericJoystick.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/crazyswarm_py.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/crazyflie.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/uav_trajectory.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/keyboard.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/joystick.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/util.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+copying /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build/lib/crazyflie_py/linuxjsdev.py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/genericJoystick.py to genericJoystick.cpython-310.pyc
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/crazyswarm_py.py to crazyswarm_py.cpython-310.pyc
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/crazyflie.py to crazyflie.cpython-310.pyc
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/uav_trajectory.py to uav_trajectory.cpython-310.pyc
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/keyboard.py to keyboard.cpython-310.pyc
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/joystick.py to joystick.cpython-310.pyc
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/util.py to util.cpython-310.pyc
+byte-compiling /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py/linuxjsdev.py to linuxjsdev.cpython-310.pyc
+running install_data
+copying resource/crazyflie_py -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/share/crazyflie_py
+running install_egg_info
+Copying ../../../build/crazyflie_py/crazyflie_py.egg-info to /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/install.log'

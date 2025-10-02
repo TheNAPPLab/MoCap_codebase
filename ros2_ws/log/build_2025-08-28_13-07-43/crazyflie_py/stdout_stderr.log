@@ -1,0 +1,18 @@
+running egg_info
+writing ../../../build/crazyflie_py/crazyflie_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/crazyflie_py/crazyflie_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/crazyflie_py/crazyflie_py.egg-info/entry_points.txt
+writing requirements to ../../../build/crazyflie_py/crazyflie_py.egg-info/requires.txt
+writing top-level names to ../../../build/crazyflie_py/crazyflie_py.egg-info/top_level.txt
+reading manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info' (and everything under it)
+Copying ../../../build/crazyflie_py/crazyflie_py.egg-info to /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/install.log'

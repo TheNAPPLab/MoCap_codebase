@@ -1,0 +1,83 @@
+[35m[1mConsolidate compiler generated dependencies of target teleop[0m
+[35m[1mConsolidate compiler generated dependencies of target crazyflieLinkCpp[0m
+[ 22%] Built target crazyflieLinkCpp
+[ 27%] Built target teleop
+[35m[1mConsolidate compiler generated dependencies of target crazyflie_cpp[0m
+[ 35%] Built target crazyflie_cpp
+[35m[1mConsolidate compiler generated dependencies of target listParams[0m
+[35m[1mConsolidate compiler generated dependencies of target listLogVariables[0m
+[35m[1mConsolidate compiler generated dependencies of target scan[0m
+[35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[35m[1mConsolidate compiler generated dependencies of target battery[0m
+[35m[1mConsolidate compiler generated dependencies of target listMemories[0m
+[35m[1mConsolidate compiler generated dependencies of target comCheck[0m
+[35m[1mConsolidate compiler generated dependencies of target reboot[0m
+[35m[1mConsolidate compiler generated dependencies of target log[0m
+[35m[1mConsolidate compiler generated dependencies of target console[0m
+[35m[1mConsolidate compiler generated dependencies of target version[0m
+[35m[1mConsolidate compiler generated dependencies of target downloadUSDLogfile[0m
+[35m[1mConsolidate compiler generated dependencies of target setParam[0m
+[ 50%] Built target comCheck
+[ 50%] Built target scan
+[ 50%] Built target battery
+[ 55%] Built target listParams
+[ 60%] Built target listLogVariables
+[ 70%] Built target listMemories
+[ 70%] Built target reboot
+[ 80%] Built target crazyflie_server
+[ 80%] Built target version
+[ 85%] Built target console
+[ 90%] Built target log
+[ 95%] Built target downloadUSDLogfile
+[100%] Built target setParam
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/comCheck
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/scan
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/listParams
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/listMemories
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/reboot
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/battery
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/version
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/console
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/log
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/setParam
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/teleop
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/chooser.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/aideck_streamer.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/gui.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/lib/crazyflie/flash.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/aideck_streamer.yaml
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly.stl
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly_with_props.dae
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie//urdf/crazyflie_description.urdf
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+-- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/package.dsv
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+-- Up-to-date symlink: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie/share/crazyflie/package.xml

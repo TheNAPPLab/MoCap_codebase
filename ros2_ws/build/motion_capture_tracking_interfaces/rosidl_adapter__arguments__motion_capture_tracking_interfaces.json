@@ -1,0 +1,7 @@
+{
+  "package_name": "motion_capture_tracking_interfaces",
+  "non_idl_tuples": [
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces:msg/NamedPose.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces:msg/NamedPoseArray.msg"
+  ]
+}

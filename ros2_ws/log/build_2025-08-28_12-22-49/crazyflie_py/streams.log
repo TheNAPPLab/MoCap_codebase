@@ -1,0 +1,20 @@
+[0.439s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_py': CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie CONDA_PROMPT_MODIFIER=(motioncapture) PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/prefix_override:/home/crazyflie/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build install --record /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/install.log --single-version-externally-managed install_data
+[0.597s] running egg_info
+[0.597s] writing ../../../build/crazyflie_py/crazyflie_py.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../../build/crazyflie_py/crazyflie_py.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../../build/crazyflie_py/crazyflie_py.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../../build/crazyflie_py/crazyflie_py.egg-info/requires.txt
+[0.598s] writing top-level names to ../../../build/crazyflie_py/crazyflie_py.egg-info/top_level.txt
+[0.599s] reading manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[0.599s] writing manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[0.599s] running build
+[0.599s] running build_py
+[0.600s] running install
+[0.600s] running install_lib
+[0.601s] running install_data
+[0.601s] running install_egg_info
+[0.602s] removing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info' (and everything under it)
+[0.602s] Copying ../../../build/crazyflie_py/crazyflie_py.egg-info to /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info
+[0.603s] running install_scripts
+[0.614s] writing list of installed files to '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/install.log'
+[0.631s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_py' returned '0': CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_sim:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie CONDA_PROMPT_MODIFIER=(motioncapture) PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/prefix_override:/home/crazyflie/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build install --record /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/install.log --single-version-externally-managed install_data

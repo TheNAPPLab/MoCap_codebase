@@ -1,0 +1,130 @@
+[0.007s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/lib/python3.10/site-packages:/lib/python3.10/site-packages /usr/bin/cmake /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_examples -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples
+[0.044s] -- The C compiler identification is GNU 12.3.0
+[0.083s] -- The CXX compiler identification is GNU 12.3.0
+[0.088s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.201s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.201s] -- Detecting CXX compile features
+[0.202s] -- Detecting CXX compile features - done
+[0.203s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.337s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.407s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.043s] -- Configuring done
+[1.047s] -- Generating done
+[1.048s] -- Build files have been written to: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples
+[1.052s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/lib/python3.10/site-packages:/lib/python3.10/site-packages /usr/bin/cmake /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_examples -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples
+[1.053s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/lib/python3.10/site-packages:/lib/python3.10/site-packages /usr/bin/cmake --build /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples -- -j16 -l16
+[1.092s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[1.092s] Built target ament_cmake_python_symlink_crazyflie_examples
+[1.266s] running egg_info
+[1.266s] creating crazyflie_examples.egg-info
+[1.266s] writing crazyflie_examples.egg-info/PKG-INFO
+[1.266s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[1.266s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[1.266s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[1.266s] running install_scripts
+[1.266s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.268s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.268s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.280s] running egg_info
+[1.281s] writing crazyflie_examples.egg-info/PKG-INFO
+[1.281s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[1.281s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[1.281s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[1.283s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.283s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.284s] Installing arming script to scripts
+[1.284s] Installing cmd_full_state script to scripts
+[1.284s] Installing figure8 script to scripts
+[1.284s] Installing group_mask script to scripts
+[1.285s] Installing hello_world script to scripts
+[1.285s] Installing infinite_flight script to scripts
+[1.285s] Installing multi_trajectory script to scripts
+[1.285s] Installing nice_hover script to scripts
+[1.285s] Installing set_param script to scripts
+[1.285s] Installing swap script to scripts
+[1.289s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[1.311s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[1.320s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/lib/python3.10/site-packages:/lib/python3.10/site-packages /usr/bin/cmake --build /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples -- -j16 -l16
+[1.339s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/lib/python3.10/site-packages:/lib/python3.10/site-packages /usr/bin/cmake --install /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples
+[1.345s] -- Install configuration: "Release"
+[1.345s] -- Execute custom install script
+[1.345s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[1.352s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[1.359s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/PKG-INFO
+[1.366s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/SOURCES.txt
+[1.373s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/dependency_links.txt
+[1.380s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/entry_points.txt
+[1.388s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/top_level.txt
+[1.395s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//arming
+[1.402s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[1.408s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[1.414s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//group_mask
+[1.421s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[1.428s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//infinite_flight
+[1.434s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[1.440s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[1.447s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[1.452s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//swap
+[1.459s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py
+[1.466s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/arming.py
+[1.472s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py
+[1.479s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/figure8.csv
+[1.486s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[1.492s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[1.498s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py
+[1.505s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/group_mask.py
+[1.511s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py
+[1.519s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/infinite_flight.py
+[1.525s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py
+[1.532s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py
+[1.539s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py
+[1.546s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/swap.py
+[1.554s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[1.560s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[1.567s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/slam_params.yaml
+[1.573s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[1.580s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[1.587s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[1.594s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[1.600s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[1.608s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/launch.py
+[1.614s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[1.621s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[1.628s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_simple_mapper_launch.py
+[1.635s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[1.642s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[1.649s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[1.656s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[1.663s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[1.669s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[1.676s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[1.683s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[1.689s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[1.696s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[1.703s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[1.709s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[1.716s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[1.722s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[1.728s] -- Symlinking: /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[1.757s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/arming.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py'...
+[1.757s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data'...
+[1.757s] Listing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/group_mask.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/infinite_flight.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py'...
+[1.757s] Compiling '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/swap.py'...
+[1.762s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/lib/python3.10/site-packages:/lib/python3.10/site-packages /usr/bin/cmake --install /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_examples

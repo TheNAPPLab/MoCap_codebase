@@ -1,0 +1,27 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "non_idl_tuples": [
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/ConnectionStatistics.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/ConnectionStatisticsArray.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/FullState.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogDataGeneric.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Hover.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogBlock.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Position.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Status.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/TrajectoryPolynomialPiece.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/VelocityWorld.msg",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/GoTo.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Land.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/NotifySetpointsStop.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/SetGroupMask.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/StartTrajectory.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Stop.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Takeoff.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UpdateParams.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UploadTrajectory.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/RemoveLogging.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/AddLogging.srv",
+    "/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Arm.srv"
+  ]
+}

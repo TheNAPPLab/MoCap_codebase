@@ -1,0 +1,20 @@
+[0.383s] Invoking command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_py': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/prefix_override:/home/crazyflie/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build install --record /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/install.log --single-version-externally-managed install_data
+[0.527s] running egg_info
+[0.527s] writing ../../../build/crazyflie_py/crazyflie_py.egg-info/PKG-INFO
+[0.527s] writing dependency_links to ../../../build/crazyflie_py/crazyflie_py.egg-info/dependency_links.txt
+[0.527s] writing entry points to ../../../build/crazyflie_py/crazyflie_py.egg-info/entry_points.txt
+[0.527s] writing requirements to ../../../build/crazyflie_py/crazyflie_py.egg-info/requires.txt
+[0.528s] writing top-level names to ../../../build/crazyflie_py/crazyflie_py.egg-info/top_level.txt
+[0.528s] reading manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[0.529s] writing manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[0.529s] running build
+[0.529s] running build_py
+[0.529s] running install
+[0.529s] running install_lib
+[0.530s] running install_data
+[0.530s] running install_egg_info
+[0.531s] removing '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info' (and everything under it)
+[0.531s] Copying ../../../build/crazyflie_py/crazyflie_py.egg-info to /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info
+[0.532s] running install_scripts
+[0.542s] writing list of installed files to '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/install.log'
+[0.557s] Invoked command in '/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(motioncapture) LD_LIBRARY_PATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/prefix_override:/home/crazyflie/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/build install --record /home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/build/crazyflie_py/install.log --single-version-externally-managed install_data

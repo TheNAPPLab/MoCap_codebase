@@ -1,0 +1,7 @@
+digraph G {
+"mocap" -> "cf231_mocap"[label=" Broadcaster: default_authority\nAverage rate: 120.199\nBuffer length: 5.008\nMost recent transform: 1756409211.817484\nOldest transform: 1756409206.809128\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1756409211.8208528"[ shape=plaintext ] ;
+}->"mocap";
+}
