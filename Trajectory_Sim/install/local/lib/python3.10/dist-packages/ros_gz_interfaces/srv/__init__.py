@@ -1,0 +1,1 @@
+/ws/build/ros_gz_interfaces/rosidl_generator_py/ros_gz_interfaces/srv/__init__.py

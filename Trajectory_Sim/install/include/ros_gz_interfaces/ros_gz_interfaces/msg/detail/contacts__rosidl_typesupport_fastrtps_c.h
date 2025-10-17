@@ -1,0 +1,1 @@
+/ws/build/ros_gz_interfaces/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h

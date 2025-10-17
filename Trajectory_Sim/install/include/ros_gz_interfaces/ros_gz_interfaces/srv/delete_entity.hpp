@@ -1,0 +1,1 @@
+/ws/build/ros_gz_interfaces/rosidl_generator_cpp/ros_gz_interfaces/srv/delete_entity.hpp

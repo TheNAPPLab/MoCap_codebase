@@ -1,0 +1,313 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d5df364e80ffb558faff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "deps/crazyflie_tools",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-deps.crazyflie_tools-98604ed8d2fd92e638a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps/crazyflie_tools",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						17
+					]
+				},
+				{
+					"build" : "deps/crazyflie_tools/crazyflie_cpp",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-deps.crazyflie_tools.crazyflie_cpp-e86af8c2cbcae62d10b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "deps/crazyflie_tools/crazyflie_cpp",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp",
+					"jsonFile" : "directory-deps.crazyflie_tools.crazyflie_cpp.crazyflie-link-cpp-7111b4734c6159d3983d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "crazyflie",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						15,
+						16
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "crazyflie_tools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						17
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "crazyflie_cpp",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "crazyflie-link-cpp",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "battery::@2055659b63a817688844",
+					"jsonFile" : "target-battery-5b7d66d56545c72f8f09.json",
+					"name" : "battery",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "comCheck::@2055659b63a817688844",
+					"jsonFile" : "target-comCheck-94a86909208e5f5299bb.json",
+					"name" : "comCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "console::@2055659b63a817688844",
+					"jsonFile" : "target-console-5bc68237d0f23431b8d6.json",
+					"name" : "console",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "crazyflieLinkCpp::@dbd3855cd6d219699178",
+					"jsonFile" : "target-crazyflieLinkCpp-18fca1feff0d307a516c.json",
+					"name" : "crazyflieLinkCpp",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "crazyflie_cpp::@11907ff27abdad96a82f",
+					"jsonFile" : "target-crazyflie_cpp-4bc25dff2c08d6f11e8a.json",
+					"name" : "crazyflie_cpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazyflie_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazyflie_server-c97cabebd68beaead1b6.json",
+					"name" : "crazyflie_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazyflie_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazyflie_uninstall-28146fac69252a0f662f.json",
+					"name" : "crazyflie_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "downloadUSDLogfile::@2055659b63a817688844",
+					"jsonFile" : "target-downloadUSDLogfile-a77c5777538883fc1c64.json",
+					"name" : "downloadUSDLogfile",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "listLogVariables::@2055659b63a817688844",
+					"jsonFile" : "target-listLogVariables-3ecae07026cceb99dcaf.json",
+					"name" : "listLogVariables",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "listMemories::@2055659b63a817688844",
+					"jsonFile" : "target-listMemories-6b5feab0423a0585423a.json",
+					"name" : "listMemories",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "listParams::@2055659b63a817688844",
+					"jsonFile" : "target-listParams-78c5f2354c7a8a5b2c5d.json",
+					"name" : "listParams",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "log::@2055659b63a817688844",
+					"jsonFile" : "target-log-15d49b3688829ccce1e8.json",
+					"name" : "log",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "reboot::@2055659b63a817688844",
+					"jsonFile" : "target-reboot-0f559be11a4c7e28f50b.json",
+					"name" : "reboot",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "scan::@2055659b63a817688844",
+					"jsonFile" : "target-scan-6c0182ba9d5e360e469e.json",
+					"name" : "scan",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "setParam::@2055659b63a817688844",
+					"jsonFile" : "target-setParam-f61db60a20a3f22e4d9b.json",
+					"name" : "setParam",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop-98f8e8ca95a47811056c.json",
+					"name" : "teleop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2dea1a07752ff030c01e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "version::@2055659b63a817688844",
+					"jsonFile" : "target-version-0b810735e658c14848b7.json",
+					"name" : "version",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ws/build/crazyflie",
+		"source" : "/ws/src/crazyswarm2/crazyflie"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/ws/build/crazyflie_interfaces/rosidl_generator_cpp/crazyflie_interfaces/srv/detail/start_trajectory__type_support.hpp

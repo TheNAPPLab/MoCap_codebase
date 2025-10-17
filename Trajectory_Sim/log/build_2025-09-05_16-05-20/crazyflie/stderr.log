@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:19 (find_package):
+  By not providing "Findmotion_capture_tracking_interfaces.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "motion_capture_tracking_interfaces", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "motion_capture_tracking_interfaces" with any of the following names:
+
+    motion_capture_tracking_interfacesConfig.cmake
+    motion_capture_tracking_interfaces-config.cmake
+
+  Add the installation prefix of "motion_capture_tracking_interfaces" to
+  CMAKE_PREFIX_PATH or set "motion_capture_tracking_interfaces_DIR" to a
+  directory containing one of the above files.  If
+  "motion_capture_tracking_interfaces" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

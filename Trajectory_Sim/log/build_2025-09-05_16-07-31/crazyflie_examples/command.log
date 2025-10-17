@@ -1,0 +1,4 @@
+Invoking command in '/ws/build/crazyflie_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws/build/crazyflie_examples -- -j11 -l11
+Invoked command in '/ws/build/crazyflie_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws/build/crazyflie_examples -- -j11 -l11
+Invoking command in '/ws/build/crazyflie_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws/build/crazyflie_examples
+Invoked command in '/ws/build/crazyflie_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws/build/crazyflie_examples

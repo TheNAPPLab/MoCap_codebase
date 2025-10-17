@@ -1,0 +1,1 @@
+/ws/build/ros_gz_interfaces/rosidl_generator_cpp/ros_gz_interfaces/msg/detail/video_record__traits.hpp

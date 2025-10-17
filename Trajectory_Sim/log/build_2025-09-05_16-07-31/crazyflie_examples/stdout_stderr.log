@@ -1,0 +1,105 @@
+Built target ament_cmake_python_symlink_crazyflie_examples
+Built target ament_cmake_python_symlink_crazyflie_examples_setup
+running install_scripts
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing crazyflie_examples.egg-info/PKG-INFO
+writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+writing entry points to crazyflie_examples.egg-info/entry_points.txt
+writing top-level names to crazyflie_examples.egg-info/top_level.txt
+running egg_info
+writing crazyflie_examples.egg-info/PKG-INFO
+writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+writing entry points to crazyflie_examples.egg-info/entry_points.txt
+writing top-level names to crazyflie_examples.egg-info/top_level.txt
+writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+Installing arming script to scripts
+reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+Installing cmd_full_state script to scripts
+Installing figure8 script to scripts
+Installing group_mask script to scripts
+Installing hello_world script to scripts
+Installing infinite_flight script to scripts
+writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+Installing multi_trajectory script to scripts
+Installing nice_hover script to scripts
+Installing set_param script to scripts
+Installing swap script to scripts
+Built target ament_cmake_python_build_crazyflie_examples_egg
+Built target ament_cmake_python_build_crazyflie_examples_scripts
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /ws/install/share/crazyflie_examples/environment/pythonpath.sh
+-- Symlinking: /ws/install/share/crazyflie_examples/environment/pythonpath.dsv
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/PKG-INFO
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/entry_points.txt
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/top_level.txt
+-- Symlinking: /ws/install/lib/crazyflie_examples//arming
+-- Symlinking: /ws/install/lib/crazyflie_examples//cmd_full_state
+-- Symlinking: /ws/install/lib/crazyflie_examples//figure8
+-- Symlinking: /ws/install/lib/crazyflie_examples//group_mask
+-- Symlinking: /ws/install/lib/crazyflie_examples//hello_world
+-- Symlinking: /ws/install/lib/crazyflie_examples//infinite_flight
+-- Symlinking: /ws/install/lib/crazyflie_examples//multi_trajectory
+-- Symlinking: /ws/install/lib/crazyflie_examples//nice_hover
+-- Symlinking: /ws/install/lib/crazyflie_examples//set_param
+-- Symlinking: /ws/install/lib/crazyflie_examples//swap
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/arming.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/data/figure8.csv
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/group_mask.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/infinite_flight.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/swap.py
+-- Symlinking: /ws/install/share/crazyflie_examples//config/nav2_params.yaml
+-- Symlinking: /ws/install/share/crazyflie_examples//config/nav2_view.rviz
+-- Symlinking: /ws/install/share/crazyflie_examples//config/slam_params.yaml
+-- Symlinking: /ws/install/share/crazyflie_examples//data/map.data
+-- Symlinking: /ws/install/share/crazyflie_examples//data/map.pgm
+-- Symlinking: /ws/install/share/crazyflie_examples//data/map.posegraph
+-- Symlinking: /ws/install/share/crazyflie_examples//data/map.yaml
+-- Symlinking: /ws/install/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+-- Symlinking: /ws/install/share/crazyflie_examples//launch/launch.py
+-- Symlinking: /ws/install/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+-- Symlinking: /ws/install/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+-- Symlinking: /ws/install/share/crazyflie_examples//launch/multiranger_simple_mapper_launch.py
+-- Symlinking: /ws/install/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+-- Symlinking: /ws/install/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+-- Symlinking: /ws/install/share/crazyflie_examples/environment/ament_prefix_path.sh
+-- Symlinking: /ws/install/share/crazyflie_examples/environment/ament_prefix_path.dsv
+-- Symlinking: /ws/install/share/crazyflie_examples/environment/path.sh
+-- Symlinking: /ws/install/share/crazyflie_examples/environment/path.dsv
+-- Symlinking: /ws/install/share/crazyflie_examples/local_setup.bash
+-- Symlinking: /ws/install/share/crazyflie_examples/local_setup.sh
+-- Symlinking: /ws/install/share/crazyflie_examples/local_setup.zsh
+-- Symlinking: /ws/install/share/crazyflie_examples/local_setup.dsv
+-- Symlinking: /ws/install/share/crazyflie_examples/package.dsv
+-- Symlinking: /ws/install/share/ament_index/resource_index/packages/crazyflie_examples
+-- Symlinking: /ws/install/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+-- Symlinking: /ws/install/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+-- Symlinking: /ws/install/share/crazyflie_examples/package.xml
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/arming.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/data'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/group_mask.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/infinite_flight.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_examples/swap.py'...

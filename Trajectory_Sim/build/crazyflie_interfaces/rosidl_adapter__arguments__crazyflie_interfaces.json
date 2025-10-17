@@ -1,0 +1,27 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "non_idl_tuples": [
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/ConnectionStatistics.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/ConnectionStatisticsArray.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/FullState.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/LogDataGeneric.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/Hover.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/LogBlock.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/Position.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/Status.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/TrajectoryPolynomialPiece.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:msg/VelocityWorld.msg",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/GoTo.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/Land.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/NotifySetpointsStop.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/SetGroupMask.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/StartTrajectory.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/Stop.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/Takeoff.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/UpdateParams.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/UploadTrajectory.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/RemoveLogging.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/AddLogging.srv",
+    "/ws/src/crazyswarm2/crazyflie_interfaces:srv/Arm.srv"
+  ]
+}

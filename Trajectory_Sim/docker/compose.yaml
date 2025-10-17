@@ -1,0 +1,18 @@
+services:
+  dev:
+    build:
+      # use the PROJECT ROOT as the build context
+      context: ..
+      # the Dockerfile path is relative to *context*, so this is correct:
+      dockerfile: docker/Dockerfile
+    container_name: ros2_dev
+    working_dir: /ws
+    volumes:
+      - ..:/ws     # mount the project root into /ws
+    environment:
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+      - ROS_DOMAIN_ID=42
+    ports:
+      - "9090:9090"
+    tty: true
+    stdin_open: true

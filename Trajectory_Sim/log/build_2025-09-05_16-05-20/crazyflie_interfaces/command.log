@@ -1,0 +1,6 @@
+Invoking command in '/ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws/src/crazyswarm2/crazyflie_interfaces -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install
+Invoked command in '/ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws/src/crazyswarm2/crazyflie_interfaces -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install
+Invoking command in '/ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws/build/crazyflie_interfaces -- -j11 -l11
+Invoked command in '/ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws/build/crazyflie_interfaces -- -j11 -l11
+Invoking command in '/ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws/build/crazyflie_interfaces
+Invoked command in '/ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws/build/crazyflie_interfaces

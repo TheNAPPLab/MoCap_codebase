@@ -1,0 +1,2 @@
+Invoking command in '/ws/build/crazyflie': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws/src/crazyswarm2/crazyflie -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install
+Invoked command in '/ws/build/crazyflie' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws/src/crazyswarm2/crazyflie -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install

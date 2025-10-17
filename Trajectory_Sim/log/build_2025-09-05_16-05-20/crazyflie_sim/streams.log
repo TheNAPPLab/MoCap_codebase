@@ -1,0 +1,131 @@
+[0.110s] Invoking command in '/ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws/src/crazyswarm2/crazyflie_sim -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install
+[0.171s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.333s] -- Detecting C compile features - done
+[0.337s] -- Detecting CXX compiler ABI info
+[0.464s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.470s] -- Detecting CXX compile features
+[0.471s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.574s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.611s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.801s] -- Configuring done
+[0.836s] -- Generating done
+[0.857s] -- Build files have been written to: /ws/build/crazyflie_sim
+[0.857s] Invoked command in '/ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ws/src/crazyswarm2/crazyflie_sim -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install
+[0.859s] Invoking command in '/ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws/build/crazyflie_sim -- -j11 -l11
+[0.956s] Built target ament_cmake_python_symlink_crazyflie_sim
+[0.956s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[1.102s] running egg_info
+[1.103s] creating crazyflie_sim.egg-info
+[1.103s] writing crazyflie_sim.egg-info/PKG-INFO
+[1.104s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[1.104s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[1.105s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[1.106s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.108s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.110s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.117s] running install_scripts
+[1.120s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.121s]   warnings.warn(
+[1.130s] running egg_info
+[1.131s] writing crazyflie_sim.egg-info/PKG-INFO
+[1.132s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[1.133s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[1.133s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[1.134s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[1.136s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.138s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[1.139s] Installing crazyflie_server script to scripts
+[1.169s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[1.177s] Invoked command in '/ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ws/build/crazyflie_sim -- -j11 -l11
+[1.180s] Invoking command in '/ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ws/build/crazyflie_sim
+[1.188s] -- Install configuration: ""
+[1.189s] -- Execute custom install script
+[1.190s] -- Symlinking: /ws/install/share/crazyflie_sim/environment/pythonpath.sh
+[1.201s] -- Symlinking: /ws/install/share/crazyflie_sim/environment/pythonpath.dsv
+[1.216s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/PKG-INFO
+[1.224s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/SOURCES.txt
+[1.232s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/dependency_links.txt
+[1.240s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/entry_points.txt
+[1.248s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/top_level.txt
+[1.256s] -- Symlinking: /ws/install/lib/crazyflie_sim//crazyflie_server
+[1.275s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py
+[1.288s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench/crazyflie2.yaml
+[1.298s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_G.pth
+[1.307s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_L.pth
+[1.317s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_S.pth
+[1.330s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_L.pth
+[1.341s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_S.pth
+[1.351s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio/crazyflie2.urdf
+[1.362s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/dynobench.py
+[1.377s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/neuralswarm.py
+[1.389s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py
+[1.404s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py
+[1.411s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/pinocchio.py
+[1.422s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py
+[1.435s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py
+[1.442s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py
+[1.450s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/README.md
+[1.461s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py
+[1.468s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/README.md
+[1.475s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[1.499s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[1.503s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[1.513s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[1.538s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[1.556s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/env.jpg
+[1.557s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[1.557s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[1.563s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[1.572s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[1.578s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[1.587s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[1.592s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[1.597s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.obj
+[1.603s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py
+[1.608s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py
+[1.613s] -- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py
+[1.619s] -- Symlinking: /ws/install/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[1.624s] -- Symlinking: /ws/install/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[1.629s] -- Symlinking: /ws/install/share/crazyflie_sim/environment/ament_prefix_path.sh
+[1.635s] -- Symlinking: /ws/install/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[1.640s] -- Symlinking: /ws/install/share/crazyflie_sim/environment/path.sh
+[1.645s] -- Symlinking: /ws/install/share/crazyflie_sim/environment/path.dsv
+[1.651s] -- Symlinking: /ws/install/share/crazyflie_sim/local_setup.bash
+[1.656s] -- Symlinking: /ws/install/share/crazyflie_sim/local_setup.sh
+[1.661s] -- Symlinking: /ws/install/share/crazyflie_sim/local_setup.zsh
+[1.667s] -- Symlinking: /ws/install/share/crazyflie_sim/local_setup.dsv
+[1.672s] -- Symlinking: /ws/install/share/crazyflie_sim/package.dsv
+[1.677s] -- Symlinking: /ws/install/share/ament_index/resource_index/packages/crazyflie_sim
+[1.683s] -- Symlinking: /ws/install/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[1.688s] -- Symlinking: /ws/install/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[1.693s] -- Symlinking: /ws/install/share/crazyflie_sim/package.xml
+[1.735s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim'...
+[1.735s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py'...
+[1.736s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend'...
+[1.736s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data'...
+[1.736s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench'...
+[1.736s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2'...
+[1.737s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio'...
+[1.737s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/dynobench.py'...
+[1.737s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/neuralswarm.py'...
+[1.737s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py'...
+[1.737s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py'...
+[1.737s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/pinocchio.py'...
+[1.737s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py'...
+[1.738s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py'...
+[1.738s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py'...
+[1.738s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization'...
+[1.738s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py'...
+[1.738s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data'...
+[1.738s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env'...
+[1.738s] Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model'...
+[1.738s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py'...
+[1.738s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py'...
+[1.739s] Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py'...

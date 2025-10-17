@@ -1,0 +1,1 @@
+/ws/build/ros_gz_interfaces/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_cpp.hpp

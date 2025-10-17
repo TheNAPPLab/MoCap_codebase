@@ -1,0 +1,1 @@
+/ws/build/ros_gz_interfaces/ament_cmake_python/ros_gz_interfaces/ros_gz_interfaces.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+source;share/crazyflie_py/hook/cmake_prefix_path.ps1
+source;share/crazyflie_py/hook/cmake_prefix_path.dsv
+source;share/crazyflie_py/hook/cmake_prefix_path.sh
+source;share/crazyflie_py/hook/ld_library_path_lib.ps1
+source;share/crazyflie_py/hook/ld_library_path_lib.dsv
+source;share/crazyflie_py/hook/ld_library_path_lib.sh
+source;share/crazyflie_py/hook/pythonpath.ps1
+source;share/crazyflie_py/hook/pythonpath.dsv
+source;share/crazyflie_py/hook/pythonpath.sh
+source;share/crazyflie_py/hook/ament_prefix_path.ps1
+source;share/crazyflie_py/hook/ament_prefix_path.dsv
+source;share/crazyflie_py/hook/ament_prefix_path.sh
+source;../build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.ps1
+source;../build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.dsv
+source;../build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.sh

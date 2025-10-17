@@ -1,0 +1,124 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ws/build/crazyflie_sim
+Built target ament_cmake_python_symlink_crazyflie_sim
+Built target ament_cmake_python_symlink_crazyflie_sim_setup
+running egg_info
+creating crazyflie_sim.egg-info
+writing crazyflie_sim.egg-info/PKG-INFO
+writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+writing entry points to crazyflie_sim.egg-info/entry_points.txt
+writing top-level names to crazyflie_sim.egg-info/top_level.txt
+writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+running install_scripts
+running egg_info
+writing crazyflie_sim.egg-info/PKG-INFO
+writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+writing entry points to crazyflie_sim.egg-info/entry_points.txt
+writing top-level names to crazyflie_sim.egg-info/top_level.txt
+Built target ament_cmake_python_build_crazyflie_sim_egg
+reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+Installing crazyflie_server script to scripts
+Built target ament_cmake_python_build_crazyflie_sim_scripts
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /ws/install/share/crazyflie_sim/environment/pythonpath.sh
+-- Symlinking: /ws/install/share/crazyflie_sim/environment/pythonpath.dsv
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/PKG-INFO
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/entry_points.txt
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/top_level.txt
+-- Symlinking: /ws/install/lib/crazyflie_sim//crazyflie_server
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench/crazyflie2.yaml
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_G.pth
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_L.pth
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_S.pth
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_L.pth
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_S.pth
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio/crazyflie2.urdf
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/dynobench.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/neuralswarm.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/pinocchio.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/README.md
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/README.md
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/env.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.mtl
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.obj
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py
+-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py
+-- Symlinking: /ws/install/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+-- Symlinking: /ws/install/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+-- Symlinking: /ws/install/share/crazyflie_sim/environment/ament_prefix_path.sh
+-- Symlinking: /ws/install/share/crazyflie_sim/environment/ament_prefix_path.dsv
+-- Symlinking: /ws/install/share/crazyflie_sim/environment/path.sh
+-- Symlinking: /ws/install/share/crazyflie_sim/environment/path.dsv
+-- Symlinking: /ws/install/share/crazyflie_sim/local_setup.bash
+-- Symlinking: /ws/install/share/crazyflie_sim/local_setup.sh
+-- Symlinking: /ws/install/share/crazyflie_sim/local_setup.zsh
+-- Symlinking: /ws/install/share/crazyflie_sim/local_setup.dsv
+-- Symlinking: /ws/install/share/crazyflie_sim/package.dsv
+-- Symlinking: /ws/install/share/ament_index/resource_index/packages/crazyflie_sim
+-- Symlinking: /ws/install/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+-- Symlinking: /ws/install/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+-- Symlinking: /ws/install/share/crazyflie_sim/package.xml
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/dynobench.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/neuralswarm.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/backend/pinocchio.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env'...
+Listing '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py'...
+Compiling '/ws/install/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py'...

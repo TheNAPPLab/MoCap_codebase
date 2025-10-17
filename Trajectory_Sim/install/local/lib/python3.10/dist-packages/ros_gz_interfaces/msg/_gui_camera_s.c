@@ -1,0 +1,1 @@
+/ws/build/ros_gz_interfaces/rosidl_generator_py/ros_gz_interfaces/msg/_gui_camera_s.c

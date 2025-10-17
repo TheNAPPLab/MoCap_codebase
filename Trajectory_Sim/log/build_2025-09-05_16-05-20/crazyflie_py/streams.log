@@ -1,0 +1,20 @@
+[0.301s] Invoking command in '/ws/build/crazyflie_py': PYTHONPATH=/ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/crazyflie_py/build --no-deps symlink_data
+[0.425s] running develop
+[0.483s] running egg_info
+[0.484s] creating crazyflie_py.egg-info
+[0.485s] writing crazyflie_py.egg-info/PKG-INFO
+[0.486s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[0.487s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[0.489s] writing requirements to crazyflie_py.egg-info/requires.txt
+[0.489s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[0.490s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[0.494s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[0.496s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[0.497s] running build_ext
+[0.498s] Creating /ws/install/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+[0.499s] 
+[0.499s] Installed /ws/build/crazyflie_py
+[0.500s] running symlink_data
+[0.503s] symbolically linking /ws/build/crazyflie_py/resource/crazyflie_py -> /ws/install/share/ament_index/resource_index/packages
+[0.504s] symbolically linking /ws/build/crazyflie_py/package.xml -> /ws/install/share/crazyflie_py
+[0.516s] Invoked command in '/ws/build/crazyflie_py' returned '0': PYTHONPATH=/ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ws/build/crazyflie_py/build --no-deps symlink_data

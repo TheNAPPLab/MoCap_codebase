@@ -1,0 +1,1090 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (ros_gz_interfaces) JobQueued: {'identifier': 'ros_gz_interfaces', 'dependencies': OrderedDict()}
+[0.000251] (ros_gz_bridge) JobQueued: {'identifier': 'ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/ws/install')])}
+[0.000332] (ros_gz_sim) JobQueued: {'identifier': 'ros_gz_sim', 'dependencies': OrderedDict([('ros_gz_interfaces', '/ws/install')])}
+[0.000436] (ros_gz_image) JobQueued: {'identifier': 'ros_gz_image', 'dependencies': OrderedDict([('ros_gz_interfaces', '/ws/install'), ('ros_gz_bridge', '/ws/install')])}
+[0.000476] (test_ros_gz_bridge) JobQueued: {'identifier': 'test_ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/ws/install'), ('ros_gz_bridge', '/ws/install')])}
+[0.000531] (ros_gz_sim_demos) JobQueued: {'identifier': 'ros_gz_sim_demos', 'dependencies': OrderedDict([('ros_gz_interfaces', '/ws/install'), ('ros_gz_bridge', '/ws/install'), ('ros_gz_sim', '/ws/install'), ('ros_gz_image', '/ws/install')])}
+[0.000632] (ros_gz) JobQueued: {'identifier': 'ros_gz', 'dependencies': OrderedDict([('ros_gz_interfaces', '/ws/install'), ('ros_gz_bridge', '/ws/install'), ('ros_gz_sim', '/ws/install'), ('ros_gz_image', '/ws/install'), ('ros_gz_sim_demos', '/ws/install')])}
+[0.000731] (ros_gz_interfaces) JobStarted: {'identifier': 'ros_gz_interfaces'}
+[0.006641] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'cmake'}
+[0.008741] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/ros_gz/ros_gz_interfaces', '-DBUILD_TESTING=OFF', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install'], 'cwd': '/ws/build/ros_gz_interfaces', 'env': OrderedDict([('HOSTNAME', '2483223fbc67'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/ros_gz_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061911] (ros_gz_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100042] (-) TimerEvent: {}
+[0.122424] (ros_gz_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.128974] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178601] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.183326] (ros_gz_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.183598] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.184172] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.187549] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200998] (-) TimerEvent: {}
+[0.239671] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244753] (ros_gz_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.245660] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.245903] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.250201] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.302016] (-) TimerEvent: {}
+[0.314736] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.349875] (ros_gz_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.368181] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.391274] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.394286] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399171] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.402991] (-) TimerEvent: {}
+[0.406852] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.415505] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.423501] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.2 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[0.431407] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.439249] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.447721] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.504054] (-) TimerEvent: {}
+[0.605026] (-) TimerEvent: {}
+[0.706023] (-) TimerEvent: {}
+[0.740443] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.806245] (-) TimerEvent: {}
+[0.907018] (-) TimerEvent: {}
+[1.008113] (-) TimerEvent: {}
+[1.083164] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.108994] (-) TimerEvent: {}
+[1.210097] (-) TimerEvent: {}
+[1.217961] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.228069] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.229225] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.240781] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.241055] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.241213] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.241340] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[1.249994] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.311022] (-) TimerEvent: {}
+[1.369093] (ros_gz_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.412115] (-) TimerEvent: {}
+[1.513034] (-) TimerEvent: {}
+[1.525027] (ros_gz_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.555711] (ros_gz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/ros_gz_interfaces\n'}
+[1.560158] (ros_gz_interfaces) CommandEnded: {'returncode': 0}
+[1.560742] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'build'}
+[1.561757] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/ros_gz_interfaces', '--', '-j11', '-l11'], 'cwd': '/ws/build/ros_gz_interfaces', 'env': OrderedDict([('HOSTNAME', '2483223fbc67'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/ros_gz_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.588236] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.593411] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_ros_gz_interfaces\n'}
+[1.597949] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.614018] (-) TimerEvent: {}
+[1.683056] (ros_gz_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.683617] (ros_gz_interfaces) StdoutLine: {'line': b'creating ros_gz_interfaces.egg-info\n'}
+[1.683992] (ros_gz_interfaces) StdoutLine: {'line': b'writing ros_gz_interfaces.egg-info/PKG-INFO\n'}
+[1.685223] (ros_gz_interfaces) StdoutLine: {'line': b'writing dependency_links to ros_gz_interfaces.egg-info/dependency_links.txt\n'}
+[1.692478] (ros_gz_interfaces) StdoutLine: {'line': b'writing top-level names to ros_gz_interfaces.egg-info/top_level.txt\n'}
+[1.693573] (ros_gz_interfaces) StdoutLine: {'line': b"writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[1.695865] (ros_gz_interfaces) StdoutLine: {'line': b"reading manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[1.699443] (ros_gz_interfaces) StdoutLine: {'line': b"writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[1.713453] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_ros_gz_interfaces_egg\n'}
+[1.714241] (-) TimerEvent: {}
+[1.816032] (-) TimerEvent: {}
+[1.925210] (-) TimerEvent: {}
+[2.027517] (-) TimerEvent: {}
+[2.131612] (-) TimerEvent: {}
+[2.239422] (-) TimerEvent: {}
+[2.341147] (-) TimerEvent: {}
+[2.443035] (-) TimerEvent: {}
+[2.547206] (-) TimerEvent: {}
+[2.652025] (-) TimerEvent: {}
+[2.753024] (-) TimerEvent: {}
+[2.855030] (-) TimerEvent: {}
+[2.957048] (-) TimerEvent: {}
+[3.059223] (-) TimerEvent: {}
+[3.161201] (-) TimerEvent: {}
+[3.222342] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/altimeter__functions.c.o\x1b[0m\n'}
+[3.235145] (ros_gz_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__functions.c.o\x1b[0m\n'}
+[3.236509] (ros_gz_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__functions.c.o\x1b[0m\n'}
+[3.238760] (ros_gz_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__functions.c.o\x1b[0m\n'}
+[3.240915] (ros_gz_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[3.244453] (ros_gz_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_wrench__functions.c.o\x1b[0m\n'}
+[3.245565] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] Built target ros_gz_interfaces__cpp\n'}
+[3.246159] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__functions.c.o\x1b[0m\n'}
+[3.246780] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__functions.c.o\x1b[0m\n'}
+[3.247357] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__functions.c.o\x1b[0m\n'}
+[3.248193] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__functions.c.o\x1b[0m\n'}
+[3.248538] (ros_gz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__functions.c.o\x1b[0m\n'}
+[3.262822] (-) TimerEvent: {}
+[3.366093] (ros_gz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/logical_camera_image__functions.c.o\x1b[0m\n'}
+[3.366589] (-) TimerEvent: {}
+[3.401073] (ros_gz_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/logical_camera_image_model__functions.c.o\x1b[0m\n'}
+[3.424321] (ros_gz_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/material_color__functions.c.o\x1b[0m\n'}
+[3.436202] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__functions.c.o\x1b[0m\n'}
+[3.437766] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/sensor_noise__functions.c.o\x1b[0m\n'}
+[3.438905] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__functions.c.o\x1b[0m\n'}
+[3.440497] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__functions.c.o\x1b[0m\n'}
+[3.443507] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__functions.c.o\x1b[0m\n'}
+[3.448880] (ros_gz_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__functions.c.o\x1b[0m\n'}
+[3.456076] (ros_gz_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__functions.c.o\x1b[0m\n'}
+[3.466007] (ros_gz_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__functions.c.o\x1b[0m\n'}
+[3.467908] (-) TimerEvent: {}
+[3.475420] (ros_gz_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__functions.c.o\x1b[0m\n'}
+[3.519952] (ros_gz_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__functions.c.o\x1b[0m\n'}
+[3.552566] (ros_gz_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__functions.c.o\x1b[0m\n'}
+[3.568071] (-) TimerEvent: {}
+[3.577048] (ros_gz_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.592390] (ros_gz_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.614328] (ros_gz_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.645028] (ros_gz_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libros_gz_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.669289] (-) TimerEvent: {}
+[3.717376] (ros_gz_interfaces) StdoutLine: {'line': b'[ 16%] Built target ros_gz_interfaces__rosidl_generator_c\n'}
+[3.728645] (ros_gz_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.730020] (ros_gz_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.731759] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.770120] (-) TimerEvent: {}
+[3.872842] (-) TimerEvent: {}
+[3.974290] (-) TimerEvent: {}
+[4.076829] (-) TimerEvent: {}
+[4.178203] (-) TimerEvent: {}
+[4.280344] (-) TimerEvent: {}
+[4.384001] (-) TimerEvent: {}
+[4.485007] (-) TimerEvent: {}
+[4.586010] (-) TimerEvent: {}
+[4.687063] (-) TimerEvent: {}
+[4.736136] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[4.738248] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/altimeter__type_support.cpp.o\x1b[0m\n'}
+[4.738749] (ros_gz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/dataframe__type_support.cpp.o\x1b[0m\n'}
+[4.739761] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contact__type_support.cpp.o\x1b[0m\n'}
+[4.742709] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[4.742986] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[4.788039] (-) TimerEvent: {}
+[4.889046] (-) TimerEvent: {}
+[4.990508] (-) TimerEvent: {}
+[5.027164] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/altimeter__type_support.cpp.o\x1b[0m\n'}
+[5.051238] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/float32_array__type_support.cpp.o\x1b[0m\n'}
+[5.053513] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[5.056055] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contact__type_support.cpp.o\x1b[0m\n'}
+[5.057475] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[5.059423] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[5.061174] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[5.072120] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/dataframe__type_support.cpp.o\x1b[0m\n'}
+[5.091201] (-) TimerEvent: {}
+[5.096849] (ros_gz_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[5.101337] (ros_gz_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/light__type_support.cpp.o\x1b[0m\n'}
+[5.116614] (ros_gz_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[5.171070] (ros_gz_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[5.175619] (ros_gz_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/float32_array__type_support.cpp.o\x1b[0m\n'}
+[5.192453] (-) TimerEvent: {}
+[5.219011] (ros_gz_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[5.226470] (ros_gz_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[5.293071] (-) TimerEvent: {}
+[5.300322] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/light__type_support.cpp.o\x1b[0m\n'}
+[5.307912] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/logical_camera_image__type_support.cpp.o\x1b[0m\n'}
+[5.323228] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/logical_camera_image_model__type_support.cpp.o\x1b[0m\n'}
+[5.336055] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/param_vec__type_support.cpp.o\x1b[0m\n'}
+[5.337851] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/material_color__type_support.cpp.o\x1b[0m\n'}
+[5.355148] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/logical_camera_image__type_support.cpp.o\x1b[0m\n'}
+[5.366575] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/altimeter__type_support.cpp.o\x1b[0m\n'}
+[5.368232] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/logical_camera_image_model__type_support.cpp.o\x1b[0m\n'}
+[5.370597] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/altimeter__type_support.cpp.o\x1b[0m\n'}
+[5.372082] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contact__type_support.cpp.o\x1b[0m\n'}
+[5.394109] (-) TimerEvent: {}
+[5.414583] (ros_gz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/material_color__type_support.cpp.o\x1b[0m\n'}
+[5.424181] (ros_gz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/param_vec__type_support.cpp.o\x1b[0m\n'}
+[5.462536] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[5.463530] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contact__type_support.cpp.o\x1b[0m\n'}
+[5.491009] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/string_vec__type_support.cpp.o\x1b[0m\n'}
+[5.495031] (-) TimerEvent: {}
+[5.515565] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/altimeter__type_support.c.o\x1b[0m\n'}
+[5.517818] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/track_visual__type_support.cpp.o\x1b[0m\n'}
+[5.553603] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/video_record__type_support.cpp.o\x1b[0m\n'}
+[5.570670] (ros_gz_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contact__type_support.c.o\x1b[0m\n'}
+[5.593471] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_control__type_support.cpp.o\x1b[0m\n'}
+[5.596072] (-) TimerEvent: {}
+[5.607563] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contacts__type_support.c.o\x1b[0m\n'}
+[5.609592] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[5.634753] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_reset__type_support.cpp.o\x1b[0m\n'}
+[5.636612] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/altimeter__type_support_c.cpp.o\x1b[0m\n'}
+[5.669025] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/string_vec__type_support.cpp.o\x1b[0m\n'}
+[5.670844] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contact__type_support_c.cpp.o\x1b[0m\n'}
+[5.678666] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/control_world__type_support.cpp.o\x1b[0m\n'}
+[5.681999] (ros_gz_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/dataframe__type_support.c.o\x1b[0m\n'}
+[5.689765] (ros_gz_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[5.698025] (-) TimerEvent: {}
+[5.737556] (ros_gz_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[5.776139] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/track_visual__type_support.cpp.o\x1b[0m\n'}
+[5.778565] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_factory__type_support.c.o\x1b[0m\n'}
+[5.799250] (-) TimerEvent: {}
+[5.802894] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[5.823398] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support.c.o\x1b[0m\n'}
+[5.840104] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/float32_array__type_support.c.o\x1b[0m\n'}
+[5.843671] (ros_gz_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[5.862068] (ros_gz_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o\x1b[0m\n'}
+[5.892760] (ros_gz_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/gui_camera__type_support.c.o\x1b[0m\n'}
+[5.895191] (ros_gz_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/video_record__type_support.cpp.o\x1b[0m\n'}
+[5.896044] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/dataframe__type_support.cpp.o\x1b[0m\n'}
+[5.900462] (-) TimerEvent: {}
+[5.906688] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.920231] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c.o\x1b[0m\n'}
+[5.922890] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contacts__type_support.cpp.o\x1b[0m\n'}
+[5.927245] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[5.970038] (ros_gz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/light__type_support.c.o\x1b[0m\n'}
+[5.975859] (ros_gz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.c.o\x1b[0m\n'}
+[5.978163] (ros_gz_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_control__type_support.cpp.o\x1b[0m\n'}
+[5.994622] (ros_gz_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_reset__type_support.cpp.o\x1b[0m\n'}
+[6.001258] (-) TimerEvent: {}
+[6.013536] (ros_gz_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contacts__type_support_c.cpp.o\x1b[0m\n'}
+[6.025348] (ros_gz_interfaces) StdoutLine: {'line': b'[ 48%] Built target ros_gz_interfaces__rosidl_typesupport_c\n'}
+[6.030658] (ros_gz_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/control_world__type_support.cpp.o\x1b[0m\n'}
+[6.031553] (ros_gz_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/dataframe__type_support_c.cpp.o\x1b[0m\n'}
+[6.032257] (ros_gz_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.c.o\x1b[0m\n'}
+[6.087092] (ros_gz_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/material_color__type_support.c.o\x1b[0m\n'}
+[6.102154] (-) TimerEvent: {}
+[6.122787] (ros_gz_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[6.148768] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/param_vec__type_support.c.o\x1b[0m\n'}
+[6.203305] (-) TimerEvent: {}
+[6.243582] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support.c.o\x1b[0m\n'}
+[6.252839] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[6.304072] (-) TimerEvent: {}
+[6.323629] (ros_gz_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[6.325729] (ros_gz_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/dataframe__type_support.cpp.o\x1b[0m\n'}
+[6.331009] (ros_gz_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[6.332722] (ros_gz_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/float32_array__type_support.cpp.o\x1b[0m\n'}
+[6.338773] (ros_gz_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[6.349249] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[6.351180] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/string_vec__type_support.c.o\x1b[0m\n'}
+[6.368793] (ros_gz_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/track_visual__type_support.c.o\x1b[0m\n'}
+[6.386305] (ros_gz_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/video_record__type_support.c.o\x1b[0m\n'}
+[6.405079] (-) TimerEvent: {}
+[6.411114] (ros_gz_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_control__type_support.c.o\x1b[0m\n'}
+[6.432424] (ros_gz_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_reset__type_support.c.o\x1b[0m\n'}
+[6.445874] (ros_gz_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/control_world__type_support.c.o\x1b[0m\n'}
+[6.470876] (ros_gz_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[6.471873] (ros_gz_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/delete_entity__type_support.c.o\x1b[0m\n'}
+[6.481327] (ros_gz_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c.o\x1b[0m\n'}
+[6.503594] (ros_gz_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_factory__type_support_c.cpp.o\x1b[0m\n'}
+[6.506140] (-) TimerEvent: {}
+[6.531855] (ros_gz_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[6.554042] (ros_gz_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c.o\x1b[0m\n'}
+[6.578711] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[6.607110] (-) TimerEvent: {}
+[6.620828] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/float32_array__type_support_c.cpp.o\x1b[0m\n'}
+[6.640378] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libros_gz_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.668255] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[6.708429] (ros_gz_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[6.709606] (-) TimerEvent: {}
+[6.709820] (ros_gz_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/light__type_support.cpp.o\x1b[0m\n'}
+[6.758541] (ros_gz_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.760406] (ros_gz_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/logical_camera_image__type_support.cpp.o\x1b[0m\n'}
+[6.764044] (ros_gz_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/logical_camera_image_model__type_support.cpp.o\x1b[0m\n'}
+[6.781948] (ros_gz_interfaces) StdoutLine: {'line': b'[ 64%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.788355] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/gui_camera__type_support_c.cpp.o\x1b[0m\n'}
+[6.792670] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[6.796822] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[6.810218] (-) TimerEvent: {}
+[6.871876] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] Built target ros_gz_interfaces__rosidl_typesupport_cpp\n'}
+[6.872829] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/float32_array__type_support.cpp.o\x1b[0m\n'}
+[6.880035] (ros_gz_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[6.894333] (ros_gz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/light__type_support_c.cpp.o\x1b[0m\n'}
+[6.911343] (-) TimerEvent: {}
+[6.995150] (ros_gz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/material_color__type_support.cpp.o\x1b[0m\n'}
+[7.012329] (-) TimerEvent: {}
+[7.038420] (ros_gz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[7.063163] (ros_gz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/logical_camera_image__type_support_c.cpp.o\x1b[0m\n'}
+[7.100456] (ros_gz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/param_vec__type_support.cpp.o\x1b[0m\n'}
+[7.111546] (ros_gz_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support_c.cpp.o\x1b[0m\n'}
+[7.113774] (-) TimerEvent: {}
+[7.132997] (ros_gz_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[7.155826] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/string_vec__type_support.cpp.o\x1b[0m\n'}
+[7.158206] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/light__type_support.cpp.o\x1b[0m\n'}
+[7.193694] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/material_color__type_support_c.cpp.o\x1b[0m\n'}
+[7.204637] (ros_gz_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/track_visual__type_support.cpp.o\x1b[0m\n'}
+[7.213032] (ros_gz_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.cpp.o\x1b[0m\n'}
+[7.214621] (-) TimerEvent: {}
+[7.316422] (-) TimerEvent: {}
+[7.380678] (ros_gz_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.cpp.o\x1b[0m\n'}
+[7.391399] (ros_gz_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/param_vec__type_support_c.cpp.o\x1b[0m\n'}
+[7.393957] (ros_gz_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/material_color__type_support.cpp.o\x1b[0m\n'}
+[7.396173] (ros_gz_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support_c.cpp.o\x1b[0m\n'}
+[7.417161] (-) TimerEvent: {}
+[7.481101] (ros_gz_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/video_record__type_support.cpp.o\x1b[0m\n'}
+[7.515940] (ros_gz_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/string_vec__type_support_c.cpp.o\x1b[0m\n'}
+[7.517742] (-) TimerEvent: {}
+[7.519097] (ros_gz_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/track_visual__type_support_c.cpp.o\x1b[0m\n'}
+[7.528929] (ros_gz_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_control__type_support.cpp.o\x1b[0m\n'}
+[7.563439] (ros_gz_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_reset__type_support.cpp.o\x1b[0m\n'}
+[7.568901] (ros_gz_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/param_vec__type_support.cpp.o\x1b[0m\n'}
+[7.592749] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/control_world__type_support.cpp.o\x1b[0m\n'}
+[7.618135] (-) TimerEvent: {}
+[7.694110] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[7.697634] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/video_record__type_support_c.cpp.o\x1b[0m\n'}
+[7.719661] (-) TimerEvent: {}
+[7.722928] (ros_gz_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_control__type_support_c.cpp.o\x1b[0m\n'}
+[7.756357] (ros_gz_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[7.802564] (ros_gz_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_reset__type_support_c.cpp.o\x1b[0m\n'}
+[7.820205] (-) TimerEvent: {}
+[7.825610] (ros_gz_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/control_world__type_support_c.cpp.o\x1b[0m\n'}
+[7.829185] (ros_gz_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[7.860681] (ros_gz_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/delete_entity__type_support_c.cpp.o\x1b[0m\n'}
+[7.890216] (ros_gz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[7.921602] (-) TimerEvent: {}
+[7.984794] (ros_gz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support_c.cpp.o\x1b[0m\n'}
+[7.992710] (ros_gz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/string_vec__type_support.cpp.o\x1b[0m\n'}
+[8.022096] (-) TimerEvent: {}
+[8.047478] (ros_gz_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support_c.cpp.o\x1b[0m\n'}
+[8.065156] (ros_gz_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/track_visual__type_support.cpp.o\x1b[0m\n'}
+[8.075942] (ros_gz_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/video_record__type_support.cpp.o\x1b[0m\n'}
+[8.082279] (ros_gz_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_control__type_support.cpp.o\x1b[0m\n'}
+[8.106997] (ros_gz_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_reset__type_support.cpp.o\x1b[0m\n'}
+[8.123088] (-) TimerEvent: {}
+[8.135180] (ros_gz_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/control_world__type_support.cpp.o\x1b[0m\n'}
+[8.164839] (ros_gz_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[8.166123] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[8.223279] (-) TimerEvent: {}
+[8.239075] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.278243] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[8.321829] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.324413] (-) TimerEvent: {}
+[8.425074] (-) TimerEvent: {}
+[8.465059] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.471799] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.525220] (-) TimerEvent: {}
+[8.571321] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.626129] (-) TimerEvent: {}
+[8.650076] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.658753] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] Built target ros_gz_interfaces\n'}
+[8.669834] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.727004] (-) TimerEvent: {}
+[8.829460] (-) TimerEvent: {}
+[8.931043] (-) TimerEvent: {}
+[9.032032] (-) TimerEvent: {}
+[9.135504] (-) TimerEvent: {}
+[9.238992] (-) TimerEvent: {}
+[9.342999] (-) TimerEvent: {}
+[9.443997] (-) TimerEvent: {}
+[9.545007] (-) TimerEvent: {}
+[9.645998] (-) TimerEvent: {}
+[9.746997] (-) TimerEvent: {}
+[9.847997] (-) TimerEvent: {}
+[9.948993] (-) TimerEvent: {}
+[10.050008] (-) TimerEvent: {}
+[10.151022] (-) TimerEvent: {}
+[10.257990] (-) TimerEvent: {}
+[10.359992] (-) TimerEvent: {}
+[10.462003] (-) TimerEvent: {}
+[10.566995] (-) TimerEvent: {}
+[10.670012] (-) TimerEvent: {}
+[10.772015] (-) TimerEvent: {}
+[10.875178] (-) TimerEvent: {}
+[10.903735] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] Built target ros_gz_interfaces__py\n'}
+[10.918192] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_dataframe_s.c.o\x1b[0m\n'}
+[10.919837] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contact_s.c.o\x1b[0m\n'}
+[10.920745] (ros_gz_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_altimeter_s.c.o\x1b[0m\n'}
+[10.922334] (ros_gz_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_joint_wrench_s.c.o\x1b[0m\n'}
+[10.925656] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_factory_s.c.o\x1b[0m\n'}
+[10.926371] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_float32_array_s.c.o\x1b[0m\n'}
+[10.927806] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contacts_s.c.o\x1b[0m\n'}
+[10.930893] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_gui_camera_s.c.o\x1b[0m\n'}
+[10.931220] (ros_gz_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_light_s.c.o\x1b[0m\n'}
+[10.931682] (ros_gz_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_s.c.o\x1b[0m\n'}
+[10.932089] (ros_gz_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_wrench_s.c.o\x1b[0m\n'}
+[10.976009] (-) TimerEvent: {}
+[11.078030] (-) TimerEvent: {}
+[11.091627] (ros_gz_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_logical_camera_image_s.c.o\x1b[0m\n'}
+[11.161267] (ros_gz_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_logical_camera_image_model_s.c.o\x1b[0m\n'}
+[11.166585] (ros_gz_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_param_vec_s.c.o\x1b[0m\n'}
+[11.168623] (ros_gz_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_material_color_s.c.o\x1b[0m\n'}
+[11.171278] (ros_gz_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_string_vec_s.c.o\x1b[0m\n'}
+[11.173662] (ros_gz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_sensor_noise_s.c.o\x1b[0m\n'}
+[11.178530] (-) TimerEvent: {}
+[11.180484] (ros_gz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_video_record_s.c.o\x1b[0m\n'}
+[11.182435] (ros_gz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_track_visual_s.c.o\x1b[0m\n'}
+[11.183429] (ros_gz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_control_s.c.o\x1b[0m\n'}
+[11.184493] (ros_gz_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_reset_s.c.o\x1b[0m\n'}
+[11.185130] (ros_gz_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_control_world_s.c.o\x1b[0m\n'}
+[11.227156] (ros_gz_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_delete_entity_s.c.o\x1b[0m\n'}
+[11.279033] (-) TimerEvent: {}
+[11.348953] (ros_gz_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_set_entity_pose_s.c.o\x1b[0m\n'}
+[11.380268] (-) TimerEvent: {}
+[11.389694] (ros_gz_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_spawn_entity_s.c.o\x1b[0m\n'}
+[11.448600] (ros_gz_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.481020] (-) TimerEvent: {}
+[11.490021] (ros_gz_interfaces) StdoutLine: {'line': b'[ 97%] Built target ros_gz_interfaces__rosidl_generator_py\n'}
+[11.503103] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.503753] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.504074] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.582024] (-) TimerEvent: {}
+[11.646912] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.654102] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.669817] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.677732] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.683553] (-) TimerEvent: {}
+[11.692011] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.699429] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.719146] (ros_gz_interfaces) CommandEnded: {'returncode': 0}
+[11.721561] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'install'}
+[11.725236] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/ros_gz_interfaces'], 'cwd': '/ws/build/ros_gz_interfaces', 'env': OrderedDict([('HOSTNAME', '2483223fbc67'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/ros_gz_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.728158] (ros_gz_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.729116] (ros_gz_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.730192] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ament_index/resource_index/rosidl_interfaces/ros_gz_interfaces\n'}
+[11.735920] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.h\n'}
+[11.739168] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.h\n'}
+[11.742445] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.h\n'}
+[11.745695] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.h\n'}
+[11.749127] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__functions.h\n'}
+[11.752354] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.h\n'}
+[11.755771] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.h\n'}
+[11.758946] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__functions.h\n'}
+[11.762010] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.h\n'}
+[11.765264] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.h\n'}
+[11.768629] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__functions.h\n'}
+[11.771801] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.h\n'}
+[11.775014] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.h\n'}
+[11.778092] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__functions.h\n'}
+[11.781454] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.h\n'}
+[11.783993] (-) TimerEvent: {}
+[11.784891] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.h\n'}
+[11.788075] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__functions.h\n'}
+[11.791311] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.h\n'}
+[11.794606] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.h\n'}
+[11.797748] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__functions.h\n'}
+[11.800972] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.h\n'}
+[11.804138] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.h\n'}
+[11.807451] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__functions.h\n'}
+[11.810622] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__struct.h\n'}
+[11.813716] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.h\n'}
+[11.816838] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__functions.h\n'}
+[11.820124] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.h\n'}
+[11.823291] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.h\n'}
+[11.826568] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__functions.h\n'}
+[11.829699] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.h\n'}
+[11.833040] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.h\n'}
+[11.836183] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__functions.h\n'}
+[11.839297] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.h\n'}
+[11.842441] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.h\n'}
+[11.845673] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__functions.h\n'}
+[11.848989] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.h\n'}
+[11.852107] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.h\n'}
+[11.855222] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__functions.h\n'}
+[11.858624] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__struct.h\n'}
+[11.861949] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.h\n'}
+[11.865169] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__functions.h\n'}
+[11.868288] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__struct.h\n'}
+[11.871550] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.h\n'}
+[11.874707] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__functions.h\n'}
+[11.877921] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__struct.h\n'}
+[11.880987] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.h\n'}
+[11.884294] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__functions.h\n'}
+[11.884514] (-) TimerEvent: {}
+[11.887622] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.h\n'}
+[11.890979] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.h\n'}
+[11.894245] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__functions.h\n'}
+[11.897589] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__struct.h\n'}
+[11.900980] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.h\n'}
+[11.904295] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__functions.h\n'}
+[11.907537] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.h\n'}
+[11.911047] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.h\n'}
+[11.914336] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__functions.h\n'}
+[11.917603] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.h\n'}
+[11.920899] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.h\n'}
+[11.924248] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__functions.h\n'}
+[11.927562] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.h\n'}
+[11.930831] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.h\n'}
+[11.934047] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__functions.h\n'}
+[11.937302] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.h\n'}
+[11.940519] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.h\n'}
+[11.943878] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__functions.h\n'}
+[11.947257] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.h\n'}
+[11.950506] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.h\n'}
+[11.953684] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.h\n'}
+[11.956894] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.h\n'}
+[11.960355] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_wrench.h\n'}
+[11.963641] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.h\n'}
+[11.966816] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.h\n'}
+[11.970076] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.h\n'}
+[11.973432] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.h\n'}
+[11.976582] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/logical_camera_image.h\n'}
+[11.979703] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/logical_camera_image_model.h\n'}
+[11.982818] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/material_color.h\n'}
+[11.985057] (-) TimerEvent: {}
+[11.986359] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.h\n'}
+[11.989548] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.992826] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.h\n'}
+[11.996064] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.h\n'}
+[11.999311] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.h\n'}
+[12.002576] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.h\n'}
+[12.005912] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.h\n'}
+[12.008979] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.h\n'}
+[12.012390] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.h\n'}
+[12.015585] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.h\n'}
+[12.018883] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__functions.h\n'}
+[12.021989] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.h\n'}
+[12.025396] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.h\n'}
+[12.028486] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__functions.h\n'}
+[12.031803] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.h\n'}
+[12.034960] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.h\n'}
+[12.038262] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__functions.h\n'}
+[12.041543] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.h\n'}
+[12.044687] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.h\n'}
+[12.047975] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__functions.h\n'}
+[12.051217] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.h\n'}
+[12.054402] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.h\n'}
+[12.057722] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.h\n'}
+[12.060880] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.h\n'}
+[12.064608] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/environment/library_path.sh\n'}
+[12.067790] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/environment/library_path.dsv\n'}
+[12.073287] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_c.h\n'}
+[12.076487] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_c.h\n'}
+[12.079596] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h\n'}
+[12.082690] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_c.h\n'}
+[12.085985] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[12.086249] (-) TimerEvent: {}
+[12.089298] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_c.h\n'}
+[12.092591] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_fastrtps_c.h\n'}
+[12.095789] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_c.h\n'}
+[12.099140] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_c.h\n'}
+[12.102405] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_c.h\n'}
+[12.105547] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_c.h\n'}
+[12.108751] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__rosidl_typesupport_fastrtps_c.h\n'}
+[12.112077] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__rosidl_typesupport_fastrtps_c.h\n'}
+[12.115318] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_fastrtps_c.h\n'}
+[12.118517] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_c.h\n'}
+[12.121738] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_fastrtps_c.h\n'}
+[12.125011] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_c.h\n'}
+[12.128202] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_c.h\n'}
+[12.131442] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_c.h\n'}
+[12.134681] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_c.h\n'}
+[12.138036] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_c.h\n'}
+[12.141216] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.144447] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_c.h\n'}
+[12.147668] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_c.h\n'}
+[12.150841] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[12.154177] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_c.h\n'}
+[12.159134] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.hpp\n'}
+[12.162514] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.hpp\n'}
+[12.165851] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.hpp\n'}
+[12.168981] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.hpp\n'}
+[12.172283] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp\n'}
+[12.175621] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.hpp\n'}
+[12.179459] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__traits.hpp\n'}
+[12.182865] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.hpp\n'}
+[12.186232] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__builder.hpp\n'}
+[12.186470] (-) TimerEvent: {}
+[12.189513] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.hpp\n'}
+[12.192761] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__traits.hpp\n'}
+[12.196032] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.hpp\n'}
+[12.199254] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__builder.hpp\n'}
+[12.202449] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.hpp\n'}
+[12.205494] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__traits.hpp\n'}
+[12.208876] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.hpp\n'}
+[12.212108] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__builder.hpp\n'}
+[12.215356] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.hpp\n'}
+[12.218500] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__traits.hpp\n'}
+[12.221729] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.hpp\n'}
+[12.224981] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__builder.hpp\n'}
+[12.228279] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.hpp\n'}
+[12.231460] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__traits.hpp\n'}
+[12.234980] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.hpp\n'}
+[12.238271] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__builder.hpp\n'}
+[12.241370] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.hpp\n'}
+[12.244576] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__traits.hpp\n'}
+[12.247857] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.hpp\n'}
+[12.251087] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__builder.hpp\n'}
+[12.254318] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__struct.hpp\n'}
+[12.257812] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__traits.hpp\n'}
+[12.261093] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.hpp\n'}
+[12.264301] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__builder.hpp\n'}
+[12.267526] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.hpp\n'}
+[12.270787] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__traits.hpp\n'}
+[12.274023] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.hpp\n'}
+[12.277193] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__builder.hpp\n'}
+[12.280327] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.hpp\n'}
+[12.283676] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__traits.hpp\n'}
+[12.286892] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.hpp\n'}
+[12.287137] (-) TimerEvent: {}
+[12.290061] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__builder.hpp\n'}
+[12.293252] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.hpp\n'}
+[12.296606] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__traits.hpp\n'}
+[12.299923] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.hpp\n'}
+[12.303175] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__builder.hpp\n'}
+[12.306496] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.hpp\n'}
+[12.309796] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__traits.hpp\n'}
+[12.312998] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.hpp\n'}
+[12.316161] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__builder.hpp\n'}
+[12.319350] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__struct.hpp\n'}
+[12.322756] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__traits.hpp\n'}
+[12.326376] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.hpp\n'}
+[12.329659] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__builder.hpp\n'}
+[12.332868] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__struct.hpp\n'}
+[12.336091] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__traits.hpp\n'}
+[12.339241] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.hpp\n'}
+[12.342402] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__builder.hpp\n'}
+[12.345523] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__struct.hpp\n'}
+[12.348779] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__traits.hpp\n'}
+[12.351992] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.hpp\n'}
+[12.355170] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__builder.hpp\n'}
+[12.358370] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.hpp\n'}
+[12.361638] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__traits.hpp\n'}
+[12.364792] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.hpp\n'}
+[12.368051] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__builder.hpp\n'}
+[12.371125] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__struct.hpp\n'}
+[12.374449] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__traits.hpp\n'}
+[12.377738] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.hpp\n'}
+[12.380913] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__builder.hpp\n'}
+[12.384131] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.hpp\n'}
+[12.387386] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__traits.hpp\n'}
+[12.387598] (-) TimerEvent: {}
+[12.390636] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.hpp\n'}
+[12.393832] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__builder.hpp\n'}
+[12.396942] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.hpp\n'}
+[12.400303] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__traits.hpp\n'}
+[12.403435] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.hpp\n'}
+[12.406590] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__builder.hpp\n'}
+[12.409667] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.hpp\n'}
+[12.412905] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__traits.hpp\n'}
+[12.416128] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.hpp\n'}
+[12.419256] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__builder.hpp\n'}
+[12.422436] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.hpp\n'}
+[12.425772] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__traits.hpp\n'}
+[12.428939] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.hpp\n'}
+[12.432144] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__builder.hpp\n'}
+[12.435348] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.hpp\n'}
+[12.438653] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__traits.hpp\n'}
+[12.441843] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.hpp\n'}
+[12.445043] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.hpp\n'}
+[12.448227] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.hpp\n'}
+[12.451586] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_wrench.hpp\n'}
+[12.454883] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.hpp\n'}
+[12.457938] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.hpp\n'}
+[12.460992] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.hpp\n'}
+[12.464137] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp\n'}
+[12.467230] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/logical_camera_image.hpp\n'}
+[12.470383] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/logical_camera_image_model.hpp\n'}
+[12.473615] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/material_color.hpp\n'}
+[12.476948] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.hpp\n'}
+[12.480313] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.483557] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.hpp\n'}
+[12.486733] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.hpp\n'}
+[12.488006] (-) TimerEvent: {}
+[12.490164] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.hpp\n'}
+[12.493758] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.hpp\n'}
+[12.497018] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.hpp\n'}
+[12.500328] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.hpp\n'}
+[12.503663] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.hpp\n'}
+[12.506849] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.hpp\n'}
+[12.510086] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__builder.hpp\n'}
+[12.513241] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.hpp\n'}
+[12.516571] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__traits.hpp\n'}
+[12.520040] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.hpp\n'}
+[12.523246] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__builder.hpp\n'}
+[12.526377] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.hpp\n'}
+[12.529705] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__traits.hpp\n'}
+[12.532874] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.hpp\n'}
+[12.536136] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__builder.hpp\n'}
+[12.539469] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.hpp\n'}
+[12.542586] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__traits.hpp\n'}
+[12.545749] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.hpp\n'}
+[12.548937] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__builder.hpp\n'}
+[12.552131] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.hpp\n'}
+[12.555620] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__traits.hpp\n'}
+[12.558806] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.hpp\n'}
+[12.561956] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.hpp\n'}
+[12.565184] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.hpp\n'}
+[12.571306] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.574513] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.577760] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.581001] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.584116] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.587329] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.589012] (-) TimerEvent: {}
+[12.590672] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.593982] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.597115] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.600306] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.603641] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.606943] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.610141] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.613347] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.616642] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.619932] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.623123] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.626439] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.629800] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.633098] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.636406] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.639668] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.642972] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.646139] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.649315] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.652543] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.656791] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_c.h\n'}
+[12.659955] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_c.h\n'}
+[12.663169] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_c.h\n'}
+[12.666604] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_c.h\n'}
+[12.669861] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[12.673086] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_c.h\n'}
+[12.676647] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_introspection_c.h\n'}
+[12.679857] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_c.h\n'}
+[12.685336] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_c.h\n'}
+[12.689070] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_c.h\n'}
+[12.689308] (-) TimerEvent: {}
+[12.692449] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_c.h\n'}
+[12.695616] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__rosidl_typesupport_introspection_c.h\n'}
+[12.698837] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__rosidl_typesupport_introspection_c.h\n'}
+[12.702251] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_introspection_c.h\n'}
+[12.705460] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_c.h\n'}
+[12.708688] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_introspection_c.h\n'}
+[12.711913] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_c.h\n'}
+[12.715223] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_c.h\n'}
+[12.718520] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_c.h\n'}
+[12.721689] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_c.h\n'}
+[12.724780] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_c.h\n'}
+[12.728203] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.731515] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_c.h\n'}
+[12.734832] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_c.h\n'}
+[12.738115] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_c.h\n'}
+[12.741464] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_c.h\n'}
+[12.745787] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.749129] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.752713] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.755906] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.759229] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.762416] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.765741] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.768946] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.772179] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.775400] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.778723] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.782021] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.785156] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.788425] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.790031] (-) TimerEvent: {}
+[12.791811] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.795260] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.798506] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.801728] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.805126] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.808282] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.811367] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.814531] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.817935] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.821137] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.824262] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.827486] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/environment/pythonpath.sh\n'}
+[12.830839] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/environment/pythonpath.dsv\n'}
+[12.834952] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces-3.0.3-py3.10.egg-info/PKG-INFO\n'}
+[12.838119] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces-3.0.3-py3.10.egg-info/SOURCES.txt\n'}
+[12.841550] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces-3.0.3-py3.10.egg-info/dependency_links.txt\n'}
+[12.844708] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces-3.0.3-py3.10.egg-info/top_level.txt\n'}
+[12.850360] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/__init__.py\n'}
+[12.853662] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.856970] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.860032] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.863133] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so\n'}
+[12.866697] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/__init__.py\n'}
+[12.869895] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter.py\n'}
+[12.873099] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter_s.c\n'}
+[12.876349] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact.py\n'}
+[12.879587] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact_s.c\n'}
+[12.882758] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts.py\n'}
+[12.885905] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts_s.c\n'}
+[12.889125] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe.py\n'}
+[12.890988] (-) TimerEvent: {}
+[12.892420] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe_s.c\n'}
+[12.895715] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity.py\n'}
+[12.899017] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory.py\n'}
+[12.902278] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory_s.c\n'}
+[12.905546] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_s.c\n'}
+[12.908827] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench.py\n'}
+[12.912120] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench_s.c\n'}
+[12.915233] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array.py\n'}
+[12.918567] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array_s.c\n'}
+[12.921765] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera.py\n'}
+[12.924833] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera_s.c\n'}
+[12.928122] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench.py\n'}
+[12.931456] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench_s.c\n'}
+[12.934756] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light.py\n'}
+[12.937855] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light_s.c\n'}
+[12.941083] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_logical_camera_image.py\n'}
+[12.944378] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_logical_camera_image_model.py\n'}
+[12.947468] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_logical_camera_image_model_s.c\n'}
+[12.950571] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_logical_camera_image_s.c\n'}
+[12.953904] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color.py\n'}
+[12.957178] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color_s.c\n'}
+[12.960330] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec.py\n'}
+[12.963462] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec_s.c\n'}
+[12.966771] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise.py\n'}
+[12.969952] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise_s.c\n'}
+[12.973062] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec.py\n'}
+[12.976229] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec_s.c\n'}
+[12.979541] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual.py\n'}
+[12.982796] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual_s.c\n'}
+[12.985943] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record.py\n'}
+[12.989052] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record_s.c\n'}
+[12.992009] (-) TimerEvent: {}
+[12.992569] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control.py\n'}
+[12.995870] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control_s.c\n'}
+[12.999060] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset.py\n'}
+[13.002222] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset_s.c\n'}
+[13.005510] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.008903] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.012099] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.015681] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/__init__.py\n'}
+[13.019096] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world.py\n'}
+[13.022462] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world_s.c\n'}
+[13.025731] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity.py\n'}
+[13.028873] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity_s.c\n'}
+[13.032171] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose.py\n'}
+[13.035469] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose_s.c\n'}
+[13.038703] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity.py\n'}
+[13.041865] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity_s.c\n'}
+[13.045382] (ros_gz_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.045898] (ros_gz_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.046395] (ros_gz_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.046980] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Altimeter.idl\n'}
+[13.050186] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Contact.idl\n'}
+[13.053471] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Contacts.idl\n'}
+[13.056841] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Dataframe.idl\n'}
+[13.060091] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Entity.idl\n'}
+[13.063367] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/EntityFactory.idl\n'}
+[13.066487] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/EntityWrench.idl\n'}
+[13.069830] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Float32Array.idl\n'}
+[13.073021] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/GuiCamera.idl\n'}
+[13.076146] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/JointWrench.idl\n'}
+[13.079389] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Light.idl\n'}
+[13.082676] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/LogicalCameraImage.idl\n'}
+[13.085890] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/LogicalCameraImageModel.idl\n'}
+[13.089049] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/MaterialColor.idl\n'}
+[13.092170] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/ParamVec.idl\n'}
+[13.092368] (-) TimerEvent: {}
+[13.095534] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/SensorNoise.idl\n'}
+[13.098839] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/StringVec.idl\n'}
+[13.102115] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/TrackVisual.idl\n'}
+[13.105263] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/VideoRecord.idl\n'}
+[13.108565] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/WorldControl.idl\n'}
+[13.111813] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/WorldReset.idl\n'}
+[13.115271] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/ControlWorld.idl\n'}
+[13.118432] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/DeleteEntity.idl\n'}
+[13.121810] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/SetEntityPose.idl\n'}
+[13.124995] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/SpawnEntity.idl\n'}
+[13.128249] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Altimeter.msg\n'}
+[13.131647] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Contact.msg\n'}
+[13.134924] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Contacts.msg\n'}
+[13.138377] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Dataframe.msg\n'}
+[13.141637] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Entity.msg\n'}
+[13.145167] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/EntityFactory.msg\n'}
+[13.148366] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/EntityWrench.msg\n'}
+[13.151685] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Float32Array.msg\n'}
+[13.155107] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/GuiCamera.msg\n'}
+[13.158450] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/JointWrench.msg\n'}
+[13.161734] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/Light.msg\n'}
+[13.164855] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/LogicalCameraImage.msg\n'}
+[13.168067] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/LogicalCameraImageModel.msg\n'}
+[13.171344] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/MaterialColor.msg\n'}
+[13.174499] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/ParamVec.msg\n'}
+[13.177703] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/SensorNoise.msg\n'}
+[13.180811] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/StringVec.msg\n'}
+[13.184103] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/TrackVisual.msg\n'}
+[13.187371] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/VideoRecord.msg\n'}
+[13.190518] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/WorldControl.msg\n'}
+[13.193005] (-) TimerEvent: {}
+[13.193647] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/msg/WorldReset.msg\n'}
+[13.197078] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/ControlWorld.srv\n'}
+[13.200284] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/ControlWorld_Request.msg\n'}
+[13.203496] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/ControlWorld_Response.msg\n'}
+[13.206693] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/DeleteEntity.srv\n'}
+[13.210031] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/DeleteEntity_Request.msg\n'}
+[13.213337] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/DeleteEntity_Response.msg\n'}
+[13.216660] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/SetEntityPose.srv\n'}
+[13.219883] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/SetEntityPose_Request.msg\n'}
+[13.223207] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/SetEntityPose_Response.msg\n'}
+[13.226470] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/SpawnEntity.srv\n'}
+[13.229719] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/SpawnEntity_Request.msg\n'}
+[13.232887] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/srv/SpawnEntity_Response.msg\n'}
+[13.236434] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ament_index/resource_index/package_run_dependencies/ros_gz_interfaces\n'}
+[13.240051] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ament_index/resource_index/parent_prefix_path/ros_gz_interfaces\n'}
+[13.243296] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/environment/ament_prefix_path.sh\n'}
+[13.246710] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.249836] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/environment/path.sh\n'}
+[13.253003] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/environment/path.dsv\n'}
+[13.256092] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/local_setup.bash\n'}
+[13.259418] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/local_setup.sh\n'}
+[13.262674] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/local_setup.zsh\n'}
+[13.265992] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/local_setup.dsv\n'}
+[13.269395] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/package.dsv\n'}
+[13.272889] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ament_index/resource_index/packages/ros_gz_interfaces\n'}
+[13.276335] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.279634] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.282896] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.286106] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.289372] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.292664] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.294002] (-) TimerEvent: {}
+[13.296105] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.299267] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig.cmake\n'}
+[13.302485] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig-version.cmake\n'}
+[13.305717] (ros_gz_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/install/share/ros_gz_interfaces/package.xml\n'}
+[13.309062] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/lib/libros_gz_interfaces__rosidl_generator_c.so\n'}
+[13.312039] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/lib/libros_gz_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.312327] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.315220] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.315576] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.320618] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.320977] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.323530] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.323922] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/lib/libros_gz_interfaces__rosidl_typesupport_c.so\n'}
+[13.326041] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/lib/libros_gz_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.326409] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.333031] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.333353] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.335502] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.388042] (ros_gz_interfaces) StdoutLine: {'line': b"Listing '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces'...\n"}
+[13.390584] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/__init__.py'...\n"}
+[13.390831] (ros_gz_interfaces) StdoutLine: {'line': b"Listing '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg'...\n"}
+[13.391042] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/__init__.py'...\n"}
+[13.391262] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter.py'...\n"}
+[13.391514] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact.py'...\n"}
+[13.391814] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts.py'...\n"}
+[13.392036] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe.py'...\n"}
+[13.392287] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity.py'...\n"}
+[13.392539] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory.py'...\n"}
+[13.392797] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench.py'...\n"}
+[13.393056] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array.py'...\n"}
+[13.393262] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera.py'...\n"}
+[13.393484] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench.py'...\n"}
+[13.393663] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light.py'...\n"}
+[13.393799] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_logical_camera_image.py'...\n"}
+[13.393961] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_logical_camera_image_model.py'...\n"}
+[13.394192] (-) TimerEvent: {}
+[13.394261] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color.py'...\n"}
+[13.394536] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec.py'...\n"}
+[13.394877] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise.py'...\n"}
+[13.395187] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec.py'...\n"}
+[13.395650] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual.py'...\n"}
+[13.395924] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record.py'...\n"}
+[13.396359] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control.py'...\n"}
+[13.396586] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset.py'...\n"}
+[13.396840] (ros_gz_interfaces) StdoutLine: {'line': b"Listing '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv'...\n"}
+[13.397029] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/__init__.py'...\n"}
+[13.397182] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world.py'...\n"}
+[13.397377] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity.py'...\n"}
+[13.397647] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose.py'...\n"}
+[13.397862] (ros_gz_interfaces) StdoutLine: {'line': b"Compiling '/ws/install/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity.py'...\n"}
+[13.398110] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/lib/libros_gz_interfaces__rosidl_generator_py.so\n'}
+[13.398397] (ros_gz_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/lib/libros_gz_interfaces__rosidl_generator_py.so" to ""\n'}
+[13.398586] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.398777] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.399218] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.400792] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.402125] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.403552] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.405004] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.406383] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.407608] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.409011] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.410515] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.411926] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.413370] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.415019] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.416372] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.417758] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport.cmake\n'}
+[13.418994] (ros_gz_interfaces) StdoutLine: {'line': b'-- Installing: /ws/install/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.421691] (ros_gz_interfaces) CommandEnded: {'returncode': 0}
+[13.483821] (ros_gz_interfaces) JobEnded: {'identifier': 'ros_gz_interfaces', 'rc': 0}
+[13.486010] (ros_gz_bridge) JobStarted: {'identifier': 'ros_gz_bridge'}
+[13.486563] (ros_gz_sim) JobStarted: {'identifier': 'ros_gz_sim'}
+[13.492197] (ros_gz_bridge) JobProgress: {'identifier': 'ros_gz_bridge', 'progress': 'cmake'}
+[13.493723] (ros_gz_bridge) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/ros_gz/ros_gz_bridge', '-DBUILD_TESTING=OFF', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install'], 'cwd': '/ws/build/ros_gz_bridge', 'env': OrderedDict([('HOSTNAME', '2483223fbc67'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/ws/install:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/ros_gz_bridge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install:/opt/ros/humble')]), 'shell': False}
+[13.496057] (-) TimerEvent: {}
+[13.496220] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'cmake'}
+[13.497537] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/ros_gz/ros_gz_sim', '-DBUILD_TESTING=OFF', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install'], 'cwd': '/ws/build/ros_gz_sim', 'env': OrderedDict([('HOSTNAME', '2483223fbc67'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/ws/install:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ws/build/ros_gz_sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install:/opt/ros/humble')]), 'shell': False}
+[13.541439] (ros_gz_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.544626] (ros_gz_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.584047] (ros_gz_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.584883] (ros_gz_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.590443] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.590810] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.597002] (-) TimerEvent: {}
+[13.671098] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.676103] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.676525] (ros_gz_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.676996] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.678234] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.681707] (ros_gz_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.682517] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.682892] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.685308] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.687564] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.698071] (-) TimerEvent: {}
+[13.769825] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.775645] (ros_gz_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.776390] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.776892] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.777779] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.783820] (ros_gz_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.784026] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.784337] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.785489] (ros_gz_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[13.794180] (ros_gz_sim) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[13.794538] (ros_gz_sim) StderrLine: {'line': b'  By not providing "FindCLI11.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[13.794825] (ros_gz_sim) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "CLI11", but\n'}
+[13.795091] (ros_gz_sim) StderrLine: {'line': b'  CMake did not find one.\n'}
+[13.795368] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[13.795593] (ros_gz_sim) StderrLine: {'line': b'  Could not find a package configuration file provided by "CLI11" with any of\n'}
+[13.797054] (ros_gz_sim) StderrLine: {'line': b'  the following names:\n'}
+[13.797556] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[13.797917] (ros_gz_sim) StderrLine: {'line': b'    CLI11Config.cmake\n'}
+[13.798315] (-) TimerEvent: {}
+[13.798426] (ros_gz_sim) StderrLine: {'line': b'    cli11-config.cmake\n'}
+[13.799412] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[13.799695] (ros_gz_sim) StderrLine: {'line': b'  Add the installation prefix of "CLI11" to CMAKE_PREFIX_PATH or set\n'}
+[13.799811] (ros_gz_sim) StderrLine: {'line': b'  "CLI11_DIR" to a directory containing one of the above files.  If "CLI11"\n'}
+[13.799945] (ros_gz_sim) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[13.800089] (ros_gz_sim) StderrLine: {'line': b'  installed.\n'}
+[13.800234] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[13.800358] (ros_gz_sim) StderrLine: {'line': b'\x1b[0m\n'}
+[13.800477] (ros_gz_sim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[13.800592] (ros_gz_sim) StdoutLine: {'line': b'See also "/ws/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".\n'}
+[13.800700] (ros_gz_sim) CommandEnded: {'returncode': 1}
+[13.832365] (ros_gz_sim) JobEnded: {'identifier': 'ros_gz_sim', 'rc': 1}
+[13.866218] (ros_gz_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[13.898505] (ros_gz_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[13.899044] (-) TimerEvent: {}
+[13.934478] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[13.970424] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[13.976261] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[13.983453] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[13.992331] (ros_gz_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.000022] (-) TimerEvent: {}
+[14.004827] (ros_gz_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.042602] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[14.045684] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.101119] (-) TimerEvent: {}
+[14.103461] (ros_gz_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[14.117165] (ros_gz_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[14.139372] (ros_gz_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.150815] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[14.202020] (-) TimerEvent: {}
+[14.208597] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[14.209663] (ros_gz_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.269138] (ros_gz_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.270140] (ros_gz_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.303023] (-) TimerEvent: {}
+[14.306986] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[14.328190] (ros_gz_bridge) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[14.336748] (ros_gz_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (find_package):\n'}
+[14.337091] (ros_gz_bridge) StderrLine: {'line': b'  By not providing "Findgz_transport_vendor.cmake" in CMAKE_MODULE_PATH this\n'}
+[14.337413] (ros_gz_bridge) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[14.337629] (ros_gz_bridge) StderrLine: {'line': b'  "gz_transport_vendor", but CMake did not find one.\n'}
+[14.337862] (ros_gz_bridge) StderrLine: {'line': b'\n'}
+[14.338146] (ros_gz_bridge) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[14.338341] (ros_gz_bridge) StderrLine: {'line': b'  "gz_transport_vendor" with any of the following names:\n'}
+[14.339066] (ros_gz_bridge) StderrLine: {'line': b'\n'}
+[14.342151] (ros_gz_bridge) StderrLine: {'line': b'    gz_transport_vendorConfig.cmake\n'}
+[14.342309] (ros_gz_bridge) StderrLine: {'line': b'    gz_transport_vendor-config.cmake\n'}
+[14.342453] (ros_gz_bridge) StderrLine: {'line': b'\n'}
+[14.342570] (ros_gz_bridge) StderrLine: {'line': b'  Add the installation prefix of "gz_transport_vendor" to CMAKE_PREFIX_PATH\n'}
+[14.342690] (ros_gz_bridge) StderrLine: {'line': b'  or set "gz_transport_vendor_DIR" to a directory containing one of the above\n'}
+[14.342809] (ros_gz_bridge) StderrLine: {'line': b'  files.  If "gz_transport_vendor" provides a separate development package or\n'}
+[14.342913] (ros_gz_bridge) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[14.343038] (ros_gz_bridge) StderrLine: {'line': b'\n'}
+[14.343172] (ros_gz_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[14.343292] (ros_gz_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[14.343416] (ros_gz_bridge) StdoutLine: {'line': b'See also "/ws/build/ros_gz_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[14.343532] (ros_gz_bridge) JobEnded: {'identifier': 'ros_gz_bridge', 'rc': 'SIGINT'}
+[14.353741] (ros_gz_image) JobSkipped: {'identifier': 'ros_gz_image'}
+[14.353775] (test_ros_gz_bridge) JobSkipped: {'identifier': 'test_ros_gz_bridge'}
+[14.353803] (ros_gz_sim_demos) JobSkipped: {'identifier': 'ros_gz_sim_demos'}
+[14.353830] (ros_gz) JobSkipped: {'identifier': 'ros_gz'}
+[14.353862] (-) EventReactorShutdown: {}

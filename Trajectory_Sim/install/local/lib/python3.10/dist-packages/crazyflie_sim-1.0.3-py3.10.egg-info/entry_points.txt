@@ -1,0 +1,1 @@
+/ws/build/crazyflie_sim/ament_cmake_python/crazyflie_sim/crazyflie_sim.egg-info/entry_points.txt

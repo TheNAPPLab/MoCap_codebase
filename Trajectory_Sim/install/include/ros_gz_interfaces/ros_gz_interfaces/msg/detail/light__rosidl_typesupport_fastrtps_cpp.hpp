@@ -1,0 +1,1 @@
+/ws/build/ros_gz_interfaces/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp

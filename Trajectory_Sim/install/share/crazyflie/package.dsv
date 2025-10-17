@@ -1,0 +1,14 @@
+source;share/crazyflie/hook/cmake_prefix_path.ps1
+source;share/crazyflie/hook/cmake_prefix_path.dsv
+source;share/crazyflie/hook/cmake_prefix_path.sh
+source;share/crazyflie/hook/ld_library_path_lib.ps1
+source;share/crazyflie/hook/ld_library_path_lib.dsv
+source;share/crazyflie/hook/ld_library_path_lib.sh
+source;share/crazyflie/hook/pythonpath.ps1
+source;share/crazyflie/hook/pythonpath.dsv
+source;share/crazyflie/hook/pythonpath.sh
+source;share/crazyflie/local_setup.bash
+source;share/crazyflie/local_setup.dsv
+source;share/crazyflie/local_setup.ps1
+source;share/crazyflie/local_setup.sh
+source;share/crazyflie/local_setup.zsh

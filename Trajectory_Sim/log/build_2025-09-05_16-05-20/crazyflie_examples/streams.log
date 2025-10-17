@@ -1,0 +1,54 @@
+[0.016s] Invoking command in '/ws/build/crazyflie_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/ws/build/crazyflie_py:/ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /ws/src/crazyswarm2/crazyflie_examples -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.303s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.466s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.655s] -- Configuring done
+[0.694s] -- Generating done
+[0.711s] -- Build files have been written to: /ws/build/crazyflie_examples
+[0.712s] Invoked command in '/ws/build/crazyflie_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/ws/build/crazyflie_py:/ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /ws/src/crazyswarm2/crazyflie_examples -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install
+[0.714s] Invoking command in '/ws/build/crazyflie_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PYTHONPATH=/ws/build/crazyflie_py:/ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ws/build/crazyflie_examples -- -j11 -l11
+[0.788s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[0.788s] Built target ament_cmake_python_symlink_crazyflie_examples
+[0.927s] running egg_info
+[0.927s] creating crazyflie_examples.egg-info
+[0.928s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.928s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.928s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.928s] running install_scripts
+[0.928s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.929s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.929s]   warnings.warn(
+[0.929s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.930s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.933s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.936s] running egg_info
+[0.936s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.937s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.938s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.939s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.941s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.950s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.959s] Installing arming script to scripts
+[0.962s] Installing cmd_full_state script to scripts
+[0.963s] Installing figure8 script to scripts
+[0.966s] Installing group_mask script to scripts
+[0.966s] Installing hello_world script to scripts
+[0.967s] Installing infinite_flight script to scripts
+[0.973s] Installing multi_trajectory script to scripts
+[0.975s] Installing nice_hover script to scripts
+[0.976s] Installing set_param script to scripts
+[0.978s] Installing swap script to scripts
+[0.981s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[0.989s] Built target ament_cmake_python_build_crazyflie_examples_scripts

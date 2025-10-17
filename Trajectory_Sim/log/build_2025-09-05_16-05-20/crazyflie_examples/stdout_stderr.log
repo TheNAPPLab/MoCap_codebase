@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ws/build/crazyflie_examples
+Built target ament_cmake_python_symlink_crazyflie_examples_setup
+Built target ament_cmake_python_symlink_crazyflie_examples
+running egg_info
+creating crazyflie_examples.egg-info
+writing crazyflie_examples.egg-info/PKG-INFO
+writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+writing entry points to crazyflie_examples.egg-info/entry_points.txt
+running install_scripts
+writing top-level names to crazyflie_examples.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+running egg_info
+writing crazyflie_examples.egg-info/PKG-INFO
+writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+writing entry points to crazyflie_examples.egg-info/entry_points.txt
+writing top-level names to crazyflie_examples.egg-info/top_level.txt
+reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+Installing arming script to scripts
+Installing cmd_full_state script to scripts
+Installing figure8 script to scripts
+Installing group_mask script to scripts
+Installing hello_world script to scripts
+Installing infinite_flight script to scripts
+Installing multi_trajectory script to scripts
+Installing nice_hover script to scripts
+Installing set_param script to scripts
+Installing swap script to scripts
+Built target ament_cmake_python_build_crazyflie_examples_egg
+Built target ament_cmake_python_build_crazyflie_examples_scripts

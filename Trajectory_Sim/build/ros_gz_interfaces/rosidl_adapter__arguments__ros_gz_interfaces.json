@@ -1,0 +1,30 @@
+{
+  "package_name": "ros_gz_interfaces",
+  "non_idl_tuples": [
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/Altimeter.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/Contact.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/Contacts.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/Dataframe.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/Entity.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/EntityFactory.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/EntityWrench.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/Float32Array.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/GuiCamera.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/JointWrench.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/Light.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/LogicalCameraImage.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/LogicalCameraImageModel.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/MaterialColor.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/ParamVec.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/SensorNoise.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/StringVec.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/TrackVisual.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/VideoRecord.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/WorldControl.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:msg/WorldReset.msg",
+    "/ws/src/ros_gz/ros_gz_interfaces:srv/ControlWorld.srv",
+    "/ws/src/ros_gz/ros_gz_interfaces:srv/DeleteEntity.srv",
+    "/ws/src/ros_gz/ros_gz_interfaces:srv/SetEntityPose.srv",
+    "/ws/src/ros_gz/ros_gz_interfaces:srv/SpawnEntity.srv"
+  ]
+}
