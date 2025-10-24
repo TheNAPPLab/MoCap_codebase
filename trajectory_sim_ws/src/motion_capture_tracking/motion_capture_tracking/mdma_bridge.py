@@ -9,8 +9,9 @@ class MDMABridge(Node):
     def __init__(self):
         super().__init__('MDMA_bridge')
 
-        # Path to your Julia MDMA project
-        project_path = "/home/timothy/MultiDroneMultiActorFilming"  # update if needed
+        # Path to Julia MDMA
+        # Replace with local path to once we add the mdma code into a place that is accesable by the package
+        project_path = "/Users/timothychurchill/Documents/Mines/NAPPLab/MultiDroneMultiActorFilming"
         os.chdir(project_path)
 
         # Initialize Julia environment
