@@ -1,0 +1,35 @@
+# ROS 2 / colcon
+/ros2_ws/build/
+/ros2_ws/install/
+/ros2_ws/log/
+/ros2_ws/cache/
+/ros2_ws/.colcon/
+/ros2_ws/.ros/
+
+# Generated graphs / logs in workspace root
+/ros2_ws/frames_*.gv
+/ros2_ws/frames_*.pdf
+/ros2_ws/*log*.csv
+/ros2_ws/*params*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Virtual envs
+.venv/
+venv/
+.cfclient-venv/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
