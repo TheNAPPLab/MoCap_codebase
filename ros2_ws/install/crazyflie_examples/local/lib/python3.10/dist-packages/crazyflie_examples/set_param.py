@@ -1,1 +1,0 @@
-/home/crazyflie/Documents/Sharfi/mocap_ws/ros2_ws/src/crazyswarm2/crazyflie_examples/crazyflie_examples/set_param.py
