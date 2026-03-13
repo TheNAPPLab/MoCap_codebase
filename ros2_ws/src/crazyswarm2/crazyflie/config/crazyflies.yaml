@@ -2,11 +2,11 @@
 fileversion: 3
 
 robots:
-  cf231:
-    enabled: true
-    uri: radio://0/80/2M/E7E7E7E7E7
+  cfA:
+    enabled: False
+    uri: radio://0/80/2M/E7E7E7E7EA
     initial_position: [0.0, 0.0, 0.0]
-    type: cf21  # see robot_types
+    type: cf_single_marker  # see robot_types
     # firmware_params:
     #   kalman:
     #     pNAcc_xy: 1.0 # default 0.5
@@ -18,11 +18,11 @@ robots:
     #       vars: ["acc.x", "acc.y"]
     # reference_frame: "odom_cf231" # use a custom reference frame if no global coordinate system is available
 
-  cf5:
-    enabled: false
-    uri: radio://0/80/2M/E7E7E7E705
-    initial_position: [0.0, -0.5, 0.0]
-    type: cf21  # see robot_types
+  cfB:
+    enabled: True
+    uri: radio://0/80/2M/E7E7E7E7EB
+    initial_position: [0.0, -0.75, 0.0]
+    type: cf_single_marker  # see robot_types
     # firmware_params:
     #   kalman:
     #     pNAcc_xy: 1.0 # default 0.5
@@ -32,14 +32,64 @@ robots:
     #      frequency: 1
     #      vars: ["acc.x", "acc.y", "acc.z"]
     # reference_frame: "odom_cf5" 
+  cfC:
+    enabled: True
+    uri: radio://0/80/2M/E7E7E7E7EC
+    initial_position: [-1.0, -0.5, 0.0]
+    type: cf_single_marker  # see robot_types
+    # firmware_params:
+    #   kalman:
+    #     pNAcc_xy: 1.0 # default 0.5
+    # firmware_logging:
+    #   enabled: true
+    #   custom_topics:
+    #     topic_name3: 
+    #       frequency: 1
+    #       vars: ["acc.x", "acc.y"]
+    # reference_frame: "odom_cf231" # use a custom reference frame if no global coordinate system is available
+
+  cfD:
+    enabled: True
+    uri: radio://0/80/2M/E7E7E7E7ED
+    initial_position: [1.0, 0.5, 0.0]
+    type: cf_single_marker  # see robot_types
+    # firmware_params:
+    #   kalman:
+    #     pNAcc_xy: 1.0 # default 0.5
+    # firmware_logging:
+    #   enabled: true
+    #   custom_topics:
+    #     topic_name3: 
+    #       frequency: 1
+    #       vars: ["acc.x", "acc.y"]
+    # reference_frame: "odom_cf231" # use a custom reference frame if no global coordinate system is available
+
+  cfE:
+    enabled: false
+    uri: radio://0/80/2M/E7E7E7E7EE
+    initial_position: [0.0, 0.0, 0.0]
+    type: cf_single_marker  # see robot_types
+    # firmware_params:
+    #   kalman:
+    #     pNAcc_xy: 1.0 # default 0.5
+    # firmware_logging:
+    #   enabled: true
+    #   custom_topics:
+    #     topic_name3: 
+    #       frequency: 1
+    #       vars: ["acc.x", "acc.y"]
+    # reference_frame: "odom_cf231" # use a custom reference frame if no global coordinate system is available
+
+
+
 
 # Definition of the various robot types
 robot_types:
-  cf21:
+  cf_opti:
     motion_capture:
-      tracking: "librigidbodytracker" # one of "vendor", "librigidbodytracker"
+      tracking: "vendor" # one of "vendor", "librigidbodytracker"
       # only if enabled; see motion_capture.yaml
-      marker: default_single_marker
+      marker: default
       dynamics: default
     big_quad: false
     battery:
@@ -48,22 +98,22 @@ robot_types:
     # firmware_params:
     #   kalman:
     #     pNAcc_xy: 1.0 # default 0.5
-    # firmware_logging:
+    #firmware_logging:
     #   enabled: true
     #   default_topics:
     #   pose:
-    #     frequency: 10 # Hz
+    #     frequency: 1 # Hz
     #   custom_topics:
     #    topic_name3: 
     #      frequency: 1
     #      vars: ["acc.x", "acc.y", "acc.z"]
     # reference_frame: "odom" 
 
-  cf21_mocap_deck:
+  cf_single_marker:
     motion_capture:
       tracking: "librigidbodytracker" # one of "vendor", "librigidbodytracker"
       # only if enabled; see motion_capture.yaml
-      marker: mocap_deck
+      marker: default_single_marker
       dynamics: default
     big_quad: false
     battery:
@@ -90,7 +140,7 @@ all:
   firmware_logging:
     enabled: true
     default_topics:
-     # remove to disable default topic
+    # remove to disable default topic
       pose:
         frequency: 10 # Hz
       status:
@@ -119,8 +169,8 @@ all:
     locSrv:
       extPosStdDev: 1e-3
       extQuatStdDev: 0.5e-1
-    # kalman:
-    #   resetEstimation: 1
+    kalman:
+      resetEstimation: 1
   # reference frame for on-board state-estimate of all drones (use robot_types/type_name to set per type, or
   # robots/drone_name to set per drone)
   reference_frame: "world"
