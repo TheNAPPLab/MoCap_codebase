@@ -56,6 +56,7 @@ int main(int argc, char **argv)
   auto node = rclcpp::Node::make_shared("motion_capture_tracking_node");
   node->declare_parameter<std::string>("type", "vicon");
   node->declare_parameter<std::string>("hostname", "localhost");
+  node->declare_parameter<std::string>("interface_ip", "");
   node->declare_parameter<std::string>("topics.frame_id", "world");
   node->declare_parameter<std::string>("topics.poses.qos.mode", "none");
   node->declare_parameter<double>("topics.poses.qos.deadline", 100.0);
@@ -65,6 +66,7 @@ int main(int argc, char **argv)
 
   std::string motionCaptureType = node->get_parameter("type").as_string();
   std::string motionCaptureHostname = node->get_parameter("hostname").as_string();
+  std::string motionCaptureInterfaceIp = node->get_parameter("interface_ip").as_string();
   std::string frame_id = node->get_parameter("topics.frame_id").as_string();
   std::string poses_qos = node->get_parameter("topics.poses.qos.mode").as_string();
   double poses_deadline = node->get_parameter("topics.poses.qos.deadline").as_double();
@@ -82,6 +84,9 @@ int main(int argc, char **argv)
   // Make a new client
   std::map<std::string, std::string> cfg;
   cfg["hostname"] = motionCaptureHostname;
+  if (!motionCaptureInterfaceIp.empty()) {
+    cfg["interface_ip"] = motionCaptureInterfaceIp;
+  }
 
   // if the mock type is selected, add the defined rigid bodies
   if (motionCaptureType == "mock") {

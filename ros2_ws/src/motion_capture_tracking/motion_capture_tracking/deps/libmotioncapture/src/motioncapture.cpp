@@ -179,7 +179,8 @@ namespace libmotioncapture {
     {
       mocap = new libmotioncapture::MotionCaptureOptitrackClosedSource(
           getString(cfg, "hostname", "localhost"),
-          getInt(cfg, "port_command", 1510));
+          getInt(cfg, "port_command", 1510),
+          getString(cfg, "interface_ip", ""));
     }
 #endif
 #ifdef ENABLE_QUALISYS

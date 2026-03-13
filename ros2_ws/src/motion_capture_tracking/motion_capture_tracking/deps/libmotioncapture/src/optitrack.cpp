@@ -98,6 +98,7 @@ namespace libmotioncapture {
       // Second 2 Bytes is the size of the packet
       int nBytes = 0;
       memcpy(&nBytes, ptr, 2); ptr += 2;
+      const char* targetPtr = ptr + nBytes;
       // printf("Byte count : %d\n", nBytes);
 
       if(MessageID == NAT_MODELDEF) // Data Descriptions
@@ -109,21 +110,34 @@ namespace libmotioncapture {
         for(int i=0; i < nDatasets; i++)
         {
           // printf("Dataset %d\n", i);
+          if (ptr + 8 > targetPtr) {
+            break;
+          }
 
           int type = 0; memcpy(&type, ptr, 4); ptr += 4;
           int description_size = 0;
           // printf("Type : %d\n", i, type);
 
-          if ((major == 4 && minor >= 1) || major > 4)
-          {
-            // If the NatNet version is 4.1 or greater, next four bytes represent
-            // the number of bytes in the dataset. Just skip them.
+          if ((major == 4 && minor >= 1) || major > 4 || major == 0) {
             memcpy(&description_size, ptr, 4); ptr += 4;
+          } else {
+            // Older packets do not advertise the per-dataset payload size.
+            description_size = static_cast<int>(targetPtr - ptr);
+          }
+          const char* datasetEnd = ptr + description_size;
+          if (datasetEnd > targetPtr) {
+            break;
           }
 
           if(type == 0)   // markerset
           {
+            if (ptr >= datasetEnd) {
+              break;
+            }
             ptr += strlen(ptr) + 1; // name
+            if (ptr + 4 > datasetEnd) {
+              break;
+            }
 
             // marker data
             int nMarkers = 0; memcpy(&nMarkers, ptr, 4); ptr += 4;
@@ -131,20 +145,31 @@ namespace libmotioncapture {
 
             for(int j=0; j < nMarkers; j++)
             {
+              if (ptr >= datasetEnd) {
+                break;
+              }
               ptr += strlen(ptr) + 1;
             }
+            ptr = datasetEnd;
           }
           else if(type ==1)   // rigid body
           {
             char szName[MAX_NAMELENGTH];
+            szName[0] = 0;
             if(major >= 2)
             {
+              if (ptr >= datasetEnd) {
+                break;
+              }
               // name
               strcpy(szName, ptr);
               ptr += strlen(ptr) + 1;
               // printf("Name: %s\n", szName);
             }
 
+            if (ptr + 16 > datasetEnd) {
+              break;
+            }
             int ID = 0; memcpy(&ID, ptr, 4); ptr +=4;
             // printf("ID : %d\n", ID);
 
@@ -159,26 +184,31 @@ namespace libmotioncapture {
             // Per-marker data (NatNet 3.0 and later)
             if ( major >= 3 )
             {
+              if (ptr + 4 > datasetEnd) {
+                break;
+              }
               int nMarkers = 0; memcpy( &nMarkers, ptr, 4 ); ptr += 4;
-              // Marker positions
-              nBytes = nMarkers * 3 * sizeof(float);
-              ptr += nBytes;
-              // Marker required active labels
-              nBytes = nMarkers * sizeof(int);
-              ptr += nBytes;
+              const char* positionsPtr = ptr;
+              const char* labelsPtr = positionsPtr + nMarkers * 3 * sizeof(float);
+              const char* namesPtr = labelsPtr + nMarkers * sizeof(int);
+              if (namesPtr > datasetEnd) {
+                break;
+              }
+
               // Marker Name
               if (major >= 4) {
+                ptr = namesPtr;
                 for (int markerIdx = 0; markerIdx < nMarkers; ++markerIdx) {
+                  if (ptr >= datasetEnd) {
+                    break;
+                  }
                   ptr += strlen(ptr) + 1;
                 }
+              } else {
+                ptr = namesPtr;
               }
             }
-          }
-          else if ((major == 4 && minor >= 1) || major > 4)
-          {
-            // We got a description_size for > 4.1, which is simpler to discard
-            // for unsuported datatypes
-            ptr += description_size;
+            ptr = datasetEnd;
           }
           else if(type ==2)   // skeleton
           {
@@ -225,6 +255,11 @@ namespace libmotioncapture {
                 ptr +=4;
                 // printf("Z Offset : %3.2f\n", zoffset);
             }
+            ptr = datasetEnd;
+          }
+          else
+          {
+            ptr = datasetEnd;
           }
         }   // next dataset
 
@@ -776,4 +811,3 @@ namespace libmotioncapture {
   }
 
 }
-

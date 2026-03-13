@@ -14,6 +14,7 @@ namespace libmotioncapture {
   public:
     MotionCaptureOptitrackClosedSourceImpl()
       : received(false)
+      , data_locked_by_user(false)
     {
     }
 
@@ -79,6 +80,7 @@ namespace libmotioncapture {
     std::mutex cv_m;
     std::mutex data_m;
     bool received;
+    bool data_locked_by_user;
 
     uint64_t clockFrequency; // ticks/second for timestamps
     struct rigidBodyDefinition
@@ -91,6 +93,7 @@ namespace libmotioncapture {
       float zoffset;
     };
     std::map<int, rigidBodyDefinition> rigidBodyDefinitions;
+    std::string localAddress;
 
     std::map<std::string, RigidBody>* rigidBodies;
     PointCloud* pointcloud;
@@ -106,7 +109,8 @@ namespace libmotioncapture {
 
   MotionCaptureOptitrackClosedSource::MotionCaptureOptitrackClosedSource(
     const std::string &hostname,
-    int port_command)
+    int port_command,
+    const std::string &local_address)
   {
     pImpl = new MotionCaptureOptitrackClosedSourceImpl;
     pImpl->rigidBodies = &rigidBodies_;
@@ -118,23 +122,28 @@ namespace libmotioncapture {
 
     err = pImpl->client.SetFrameReceivedCallback(FrameReceivedCallback, pImpl);
     if (err != ErrorCode_OK) {
-      throw std::runtime_error("NatNetSDK Error " + std::to_string(err));
+      throw std::runtime_error("NatNetSDK Error " + std::to_string(err) + " on SetFrameReceivedCallback");
     }
 
     // Connect first to find out server configuration
     sNatNetClientConnectParams connectParams;
     connectParams.serverAddress = hostname.c_str();
     connectParams.serverCommandPort = port_command;
+    if (!local_address.empty()) {
+      pImpl->localAddress = local_address;
+      connectParams.localAddress = pImpl->localAddress.c_str();
+      connectParams.connectionType = ConnectionType_Unicast;
+    }
     err = pImpl->client.Connect(connectParams);
     if (err != ErrorCode_OK) {
-      throw std::runtime_error("NatNetSDK Error " + std::to_string(err));
+      throw std::runtime_error("NatNetSDK Error " + std::to_string(err) + " on Connect (initial)");
     }
 
     // Find server configuration and update connection settings
     sServerDescription serverDesc;
     err = pImpl->client.GetServerDescription(&serverDesc);
     if (err != ErrorCode_OK) {
-      throw std::runtime_error("NatNetSDK Error " + std::to_string(err));
+      throw std::runtime_error("NatNetSDK Error " + std::to_string(err) + " on GetServerDescription");
     }
     pImpl->clockFrequency = serverDesc.HighResClockFrequency;
 
@@ -153,7 +162,7 @@ namespace libmotioncapture {
     err = pImpl->client.Connect(connectParams);
     if (err != ErrorCode_OK)
     {
-      throw std::runtime_error("NatNetSDK Error " + std::to_string(err));
+      throw std::runtime_error("NatNetSDK Error " + std::to_string(err) + " on Connect (final)");
     }
 
     // get data description
@@ -161,7 +170,7 @@ namespace libmotioncapture {
     err = pImpl->client.GetDataDescriptionList(&pDataDefs, 1 << Descriptor_RigidBody);
     if (err != ErrorCode_OK || pDataDefs == NULL)
     {
-      throw std::runtime_error("NatNetSDK Error " + std::to_string(err));
+      throw std::runtime_error("NatNetSDK Error " + std::to_string(err) + " on GetDataDescriptionList");
     }
     for (int i = 0; i < pDataDefs->nDataDescriptions; i++)
     {
@@ -173,9 +182,14 @@ namespace libmotioncapture {
         def.parentID = pRB->parentID;
         def.xoffset = pRB->offsetx;
         def.yoffset = pRB->offsety;
-        def.zoffset = pRB->offsety;
+        def.zoffset = pRB->offsetz;
       }
     }
+
+    // Hold the data mutex after construction so the first waitForNextFrame()
+    // can safely hand ownership to the callback thread.
+    pImpl->data_m.lock();
+    pImpl->data_locked_by_user = true;
   }
 
   const std::string & MotionCaptureOptitrackClosedSource::version() const
@@ -185,9 +199,16 @@ namespace libmotioncapture {
 
   void MotionCaptureOptitrackClosedSource::waitForNextFrame()
   {
-    // unlock data mutex to allow asynchronous callback to update
-    pImpl->received = false;
-    pImpl->data_m.unlock();
+    {
+      std::lock_guard<std::mutex> lk(pImpl->cv_m);
+      pImpl->received = false;
+    }
+
+    // Release the data mutex so the async callback can update the shared frame.
+    if (pImpl->data_locked_by_user) {
+      pImpl->data_m.unlock();
+      pImpl->data_locked_by_user = false;
+    }
 
     // wait for update
     std::unique_lock<std::mutex> lk(pImpl->cv_m);
@@ -195,6 +216,7 @@ namespace libmotioncapture {
     
     // lock data mutex for user to use data safely
     pImpl->data_m.lock();
+    pImpl->data_locked_by_user = true;
   }
 
   const std::map<std::string, RigidBody>& MotionCaptureOptitrackClosedSource::rigidBodies() const
@@ -219,8 +241,11 @@ namespace libmotioncapture {
 
   MotionCaptureOptitrackClosedSource::~MotionCaptureOptitrackClosedSource()
   {
+    pImpl->client.Disconnect();
+    if (pImpl->data_locked_by_user) {
+      pImpl->data_m.unlock();
+    }
     delete pImpl;
   }
 
 }
-

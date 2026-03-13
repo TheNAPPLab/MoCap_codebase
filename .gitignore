@@ -1,5 +1,7 @@
 # Local environments
 .cfclient-venv/
+cache/
+ros2_ws/cache/
 
 # ROS 2 workspace outputs
 ros2_ws/build/

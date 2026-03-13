@@ -20,8 +20,8 @@ robots:
 
   cfB:
     enabled: True
-    uri: radio://0/80/2M/E7E7E7E7EB
-    initial_position: [0.0, -0.75, 0.0]
+    uri: radio://0/80/2M/E7E7E7E7E7
+    initial_position: [0.422, -0.337, 0.083]
     type: cf_single_marker  # see robot_types
     # firmware_params:
     #   kalman:
@@ -33,7 +33,7 @@ robots:
     #      vars: ["acc.x", "acc.y", "acc.z"]
     # reference_frame: "odom_cf5" 
   cfC:
-    enabled: True
+    enabled: False
     uri: radio://0/80/2M/E7E7E7E7EC
     initial_position: [-1.0, -0.5, 0.0]
     type: cf_single_marker  # see robot_types
@@ -49,7 +49,7 @@ robots:
     # reference_frame: "odom_cf231" # use a custom reference frame if no global coordinate system is available
 
   cfD:
-    enabled: True
+    enabled: False
     uri: radio://0/80/2M/E7E7E7E7ED
     initial_position: [1.0, 0.5, 0.0]
     type: cf_single_marker  # see robot_types

@@ -8,7 +8,8 @@ namespace libmotioncapture {
   public:
     MotionCaptureOptitrackClosedSource(
       const std::string &hostname,
-      int port_command = 1510);
+      int port_command = 1510,
+      const std::string &local_address = "");
 
     virtual ~MotionCaptureOptitrackClosedSource();
 
@@ -44,4 +45,3 @@ namespace libmotioncapture {
     MotionCaptureOptitrackClosedSourceImpl * pImpl;
   };
 }
-
