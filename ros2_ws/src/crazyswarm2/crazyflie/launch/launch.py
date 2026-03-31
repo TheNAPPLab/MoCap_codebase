@@ -116,6 +116,25 @@ def generate_launch_description():
         get_package_share_directory('crazyflie'),
         'config',
         'teleop.yaml')
+
+    # RViz launched from a Snap-based terminal (for example VS Code installed via Snap)
+    # can inherit GTK/Snap runtime paths that crash rviz2 on startup.
+    clean_rviz_env = {
+        'GTK_PATH': '',
+        'GTK_EXE_PREFIX': '',
+        'GTK_IM_MODULE_FILE': '',
+        'SNAP': '',
+        'SNAP_NAME': '',
+        'SNAP_ARCH': '',
+        'SNAP_COMMON': '',
+        'SNAP_CONTEXT': '',
+        'SNAP_COOKIE': '',
+        'SNAP_DATA': '',
+        'SNAP_INSTANCE_NAME': '',
+        'SNAP_LIBRARY_PATH': '',
+        'SNAP_USER_COMMON': '',
+        'SNAP_USER_DATA': '',
+    }
     
     return LaunchDescription([
         DeclareLaunchArgument('crazyflies_yaml_file', 
@@ -162,6 +181,7 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz2',
             arguments=['-d', LaunchConfiguration('rviz_config_file')],
+            additional_env=clean_rviz_env,
             parameters=[{
                 "use_sim_time": PythonExpression(["'", LaunchConfiguration('backend'), "' == 'sim'"]),
             }]

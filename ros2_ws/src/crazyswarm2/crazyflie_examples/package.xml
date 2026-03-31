@@ -13,6 +13,9 @@
 
   <depend>rclpy</depend>
   <depend>crazyflie_py</depend>
+  <depend>geometry_msgs</depend>
+  <depend>motion_capture_tracking_interfaces</depend>
+  <depend>visualization_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

@@ -5,6 +5,10 @@
     # Specify the hostname or IP of the computer running the motion capture software
     hostname: "192.168.0.128" #wifi
     #hostname: "192.168.10.1" #lan
+    # Leave interface_ip unset for the open-source OptiTrack backend here.
+    # For this setup, forcing the interface prevented the single-marker stream
+    # from being published through motion_capture_tracking.
+    # interface_ip: "192.168.0.74"
 
     topics:
       frame_id: "mocap"
@@ -25,9 +29,9 @@
           p2: [-0.042, -0.042, 0.0  ]  # back right  (M2)
           p3: [ 0.042, -0.042, 0.0  ]  # front right (M1)
       default_single_marker:
-        offset: [0.0, -0.0, 0.02]
+        offset: [0.0, -0.01, -0.04]
         points:
-          p0: [0.02,0.0,0.0]
+          p0: [0.0177184, 0.0139654, 0.0557585]
       mocap_deck:
         offset: [0.0, 0.0, 0.0]
         points:
