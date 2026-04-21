@@ -21,7 +21,7 @@ robots:
   cfB:
     enabled: True
     uri: radio://0/80/2M/E7E7E7E7E7
-    initial_position: [-0.0754, 0.0338, 0.0519]
+    initial_position: [0.0730, 0.0602, 0.0921]
     type: cf_single_marker  # see robot_types
     # firmware_params:
     #   kalman:
@@ -159,7 +159,7 @@ all:
       enHighLevel: 1
     stabilizer:
       estimator: 2 # 1: complementary, 2: kalman
-      controller: 2 # 1: PID, 2: mellinger
+      controller: 1 # 1: PID, 2: mellinger
     # ring:
     #   effect: 16 # 6: double spinner, 7: solid color, 16: packetRate
     #   solidBlue: 255 # if set to solid color
@@ -167,7 +167,7 @@ all:
     #   solidRed: 0 # if set to solid color
     #   headlightEnable: 0
     locSrv:
-      extPosStdDev: 1e-3
+      extPosStdDev: 5e-3
       extQuatStdDev: 0.5e-1
     kalman:
       resetEstimation: 1
