@@ -2,7 +2,7 @@ import os
 import yaml
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, OpaqueFunction
+from launch.actions import DeclareLaunchArgument, OpaqueFunction, ExecuteProcess
 from launch_ros.actions import Node
 from launch.conditions import LaunchConfigurationEquals
 from launch.conditions import IfCondition
@@ -68,6 +68,12 @@ def parse_yaml(context):
             name='motion_capture_tracking',
             output='screen',
             parameters= [motion_capture_params],
+            remappings=[('poses', 'poses_raw')],
+        ),
+        ExecuteProcess(
+            condition=IfCondition(PythonExpression(["'", LaunchConfiguration('backend'), "' != 'sim' and '", LaunchConfiguration('mocap'), "' == 'True'"])),
+            cmd=['python3', '/tmp/poses_relay.py'],
+            output='screen',
         ),
         Node(
             package='crazyflie',

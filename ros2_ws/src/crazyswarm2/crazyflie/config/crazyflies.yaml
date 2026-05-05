@@ -21,7 +21,7 @@ robots:
   cfB:
     enabled: True
     uri: radio://0/80/2M/E7E7E7E7E7
-    initial_position: [0.0730, 0.0602, 0.0921]
+    initial_position: [-0.0494, -0.2483, 0.0321]
     type: cf_single_marker  # see robot_types
     # firmware_params:
     #   kalman:
@@ -111,7 +111,7 @@ robot_types:
 
   cf_single_marker:
     motion_capture:
-      tracking: "librigidbodytracker" # one of "vendor", "librigidbodytracker"
+      tracking: "vendor" # one of "vendor", "librigidbodytracker"
       # only if enabled; see motion_capture.yaml
       marker: default_single_marker
       dynamics: default
