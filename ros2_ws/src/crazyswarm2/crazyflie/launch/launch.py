@@ -72,7 +72,7 @@ def parse_yaml(context):
         ),
         ExecuteProcess(
             condition=IfCondition(PythonExpression(["'", LaunchConfiguration('backend'), "' != 'sim' and '", LaunchConfiguration('mocap'), "' == 'True'"])),
-            cmd=['python3', '/tmp/poses_relay.py'],
+            cmd=['python3', os.path.join(get_package_share_directory('crazyflie'), '..', '..', 'lib', 'crazyflie', 'poses_relay.py')],
             output='screen',
         ),
         Node(
