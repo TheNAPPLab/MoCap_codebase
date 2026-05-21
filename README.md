@@ -68,3 +68,7 @@ To get the data from the desired topic( in our case it is the "/rigid_bodies" wh
 ```
 ros2 topic echo /rigid_bodies
 ```
+
+## Aaron2 Workspace (aaron/mocap-setup branch)
+
+This branch contains Aaron Nguyen's working setup for flying cfB with unicast LAN ethernet and the `optitrack_closed_source` backend. See the setup documentation for full build instructions.
