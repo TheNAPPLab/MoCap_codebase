@@ -1,14 +1,14 @@
 /motion_capture_tracking:
   ros__parameters:
     # one of "optitrack", "optitrack_closed_source", "vicon", "qualisys", "nokov", "vrpn", "motionanalysis"
-    type: "optitrack"
+    type: "optitrack_closed_source"
     # Specify the hostname or IP of the computer running the motion capture software
     hostname: "192.168.0.128" #wifi
     #hostname: "192.168.10.1" #lan
     # Leave interface_ip unset for the open-source OptiTrack backend here.
     # For this setup, forcing the interface prevented the single-marker stream
     # from being published through motion_capture_tracking.
-    # interface_ip: "192.168.0.74"
+    interface_ip: "192.168.0.166" # Updated for LAN Unicast Connection
 
     topics:
       frame_id: "mocap"
