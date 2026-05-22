@@ -12,6 +12,7 @@ from visualization_msgs.msg import Marker
 
 from crazyflie_py import Crazyswarm
 from crazyflie_py.uav_trajectory import Trajectory
+from crazyflie_interfaces.msg import Status
 
 
 TRAJECTORY_ID = 0
@@ -132,8 +133,10 @@ def main():
                         named_pose.pose.position.z,
                     ]
                 )
+                
                 break
-
+    
+    
     server.create_subscription(
         NamedPoseArray,
         "poses",
@@ -141,6 +144,44 @@ def main():
         qos_profile_sensor_data,
     )
 
+    battery_state = {"voltage": None} #initialize battery state dictionary
+
+    # Callback to update battery voltage from Status messages
+    def status_callback(msg):
+        battery_state["voltage"] = msg.battery_voltage
+
+    # Subscribe to Status messages to monitor battery voltage during the flight
+    server.create_subscription(
+        Status,
+        f"{cf.prefix}/status",
+        status_callback,
+        10,
+    )
+
+    # NEW: Pre-Arm Battery Check Gate
+# ----------------------------------------------------------------------------------------------------------------------
+    server.get_logger().info("Checking pre-flight battery voltage...")
+    start_time = server.get_clock().now()
+    battery_timeout = Duration(seconds=3.0)  # Wait up to 3 seconds for a message
+    
+    while rclpy.ok() and battery_state["voltage"] is None:
+        if (server.get_clock().now() - start_time) > battery_timeout:
+            raise RuntimeError("Timeout waiting for battery status message. Aborting takeoff.")
+        rclpy.spin_once(server, timeout_sec=0.1)
+
+    initial_voltage = battery_state["voltage"]
+    if initial_voltage is None:
+        raise RuntimeError("Failed to read battery voltage before takeoff.")
+
+    server.get_logger().info(f"Initial battery voltage detected: {initial_voltage:.2f} V")
+
+    if initial_voltage <= 3.80:
+        server.get_logger().error(
+            f"CRITICAL: Battery voltage ({initial_voltage:.2f} V) is below the 3.80 V takeoff threshold!"
+        )
+        raise RuntimeError("Pre-flight battery check failed. Script terminated for safety.")
+# ----------------------------------------------------------------------------------------------------------------------  
+  
     if require_mocap_lock:
         start_time = server.get_clock().now()
         timeout_duration = Duration(seconds=mocap_timeout)
@@ -197,6 +238,10 @@ def main():
 
     cf.uploadTrajectory(TRAJECTORY_ID, 0, traj)
 
+    # Added Timer to find the duration of Takeoff to Landing for Stress Testing
+    timer = server.get_clock().now()  # Start timer
+
+
     cf.takeoff(targetHeight=takeoff_target_z, duration=TAKEOFF_DURATION)
     time_helper.sleep(TAKEOFF_DURATION + 0.5)
 
@@ -204,11 +249,85 @@ def main():
     time_helper.sleep(POSITIONING_DURATION + 0.5)
 
     cf.startTrajectory(TRAJECTORY_ID, timescale=timescale, relative=True)
-    time_helper.sleep(traj.duration * timescale + 1.0)
+
+    # NEW: Monitor battery during trajectory
+# ----------------------------------------------------------------------------------------------------------------------
+    elapsed = 0.0
+    poll_interval = 0.5
+    total_wait = traj.duration * timescale + 1.0
+    emergency_land = False
+
+    while elapsed < total_wait:
+        time_helper.sleep(poll_interval)
+        elapsed += poll_interval
+        rclpy.spin_once(server, timeout_sec=0.0)
+        voltage = battery_state["voltage"]
+        if voltage is not None:
+            if voltage <= 3.30:
+                server.get_logger().warn(
+                    f'CRITICAL BATTERY: {voltage:.2f}V - Landing immediately!'
+                )
+                emergency_land = True
+                break
+            elif voltage <= 3.50:
+                server.get_logger().warn(
+                    f'LOW BATTERY WARNING: {voltage:.2f}V - Land soon!'
+                )
+    if emergency_land:
+        server.get_logger().warn('Emergency land complete. Disarming.')
+        cf.land(targetHeight=LAND_HEIGHT, duration=LAND_DURATION)
+        time_helper.sleep(LAND_DURATION + 0.5)
+        cf.arm(False)
+        return
+# ----------------------------------------------------------------------------------------------------------------------
+
+    elapsed = (server.get_clock().now() - timer).nanoseconds / 1e9  # End timer
+    server.get_logger().info(f"Figure-8 flight completed in {elapsed:.2f} seconds.")
 
     cf.land(targetHeight=LAND_HEIGHT, duration=LAND_DURATION)
     time_helper.sleep(LAND_DURATION + 0.5)
 
+    # -----------------------------------------------------------------
+    # NEW: Active block that waits for the firmware to actually disarm
+    # -----------------------------------------------------------------
+    server.get_logger().info("Waiting for drone firmware to auto-disarm...")
+    disarm_timeout_start = server.get_clock().now()
+    
+    # Keep checking the supervisor state until the armed bit (2) is gone
+    while rclpy.ok():
+        supervisor = int(cf.get_status().get("supervisor", 0))
+        # SUPERVISOR_INFO_IS_ARMED = 2. If this bit is 0, it means it successfully disarmed!
+        if (supervisor & SUPERVISOR_INFO_IS_ARMED) == 0:
+            break
+            
+        # Safety timeout: if it takes more than 6 seconds, break anyway so the script doesn't hang forever
+        if (server.get_clock().now() - disarm_timeout_start).nanoseconds / 1e9 > 6.0:
+            server.get_logger().warn("Timed out waiting for firmware auto-disarm.")
+            break
+            
+        rclpy.spin_once(server, timeout_sec=0.1)
+    # -----------------------------------------------------------------
+
+    # Force ROS2 to catch the final battery message right after disarm
+    rclpy.spin_once(server, timeout_sec=0.1)
+
+    # Now print your final voltage!
+    if battery_state["voltage"] is not None:
+        server.get_logger().info(f"Final battery voltage (POST-DISARM): {battery_state['voltage']:.2f}V")
+
+    # Distance from mocap_pose to initial position at script start (not necessarily takeoff position)
+    if mocap_state["last_pose"] is not None:
+        final_position = mocap_state["last_pose"].astype(float)
+        initial_position = base_pose
+        distance = np.linalg.norm(final_position - initial_position)
+        server.get_logger().info(
+            f"Final position: {final_position}, Initial position: {initial_position}, "
+            f"Distance from start: {distance:.2f} m"
+        )
+    
+    server.get_logger().info("Mission complete. Triggering global launch shutdown.")
+    server.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == "__main__":
     main()
