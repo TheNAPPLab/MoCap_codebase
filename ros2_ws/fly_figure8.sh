@@ -47,9 +47,9 @@ ros2 launch crazyflie_examples figure8_demo_launch.py \
     backend:=cpp \
     mocap:=True \
     cf_name:=cfB \
-    takeoff_height:=1.2\
-    timescale:=0.6\
-    scale_xy:=0.7 \
+    takeoff_height:=1.2 \
+    timescale:=1.5\
+    scale_xy:=1.2 \
     rviz:=False
 # ──────────────────────────────────────────────────────────────
 
