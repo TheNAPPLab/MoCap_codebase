@@ -259,7 +259,7 @@ function NonlinearMPCController(x_initial::Vector{Float64}, x_target::Vector{Flo
     
         #plotting
     println("Control points:u1= $u_actual[1],\n u2= $u_actual[2]")
-    return x_actual
+    return x_actual, u_actual
 
     #use the IPOPT solver to optimize
 
@@ -422,7 +422,7 @@ function TestFunction()
     x_ref = referencetrajectory(x_initial,x_target,N,Ts)
 
 
-    x_actual = NonlinearMPCController(x_initial, x_target)
+    x_actual, u_actual = NonlinearMPCController(x_initial, x_target)
 
     traj_plotting = plotting(x_ref,x_actual,Ts,N)
 
